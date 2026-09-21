@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>BURKER — Russia</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="products.js"></script>
+<style>
+  :root{--ink:#111;--wine:#6b1220;--grey:#8a8a8a;--line:#e8e4de;--bg:#fdfcfb}
+  *{margin:0;padding:0;box-sizing:border-box;font-family:Helvetica,Arial,sans-serif;-webkit-tap-highlight-color:transparent}
+  body{background:var(--bg);color:var(--ink);padding-bottom:80px}
+  header{position:sticky;top:0;background:rgba(253,252,251,.95);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);padding:14px 16px;display:flex;justify-content:space-between;align-items:center;z-index:10}
+  .logo{font-family:Georgia,serif;font-size:20px;letter-spacing:6px}
+  .logo span{color:var(--wine)}
+  #cartBtn{position:relative;background:none;border:1px solid var(--ink);border-radius:20px;
+    padding:8px 14px;font-size:13px;letter-spacing:1px;cursor:pointer}
+  #cartCount{position:absolute;top:-6px;right:-6px;background:var(--wine);color:#fff;border-radius:50%;
+    width:20px;height:20px;font-size:11px;display:none;align-items:center;justify-content:center}
+  .tabs{display:flex;gap:8px;padding:14px 16px;overflow-x:auto}
+  .tab{border:1px solid var(--line);background:#fff;border-radius:20px;padding:8px 16px;font-size:13px;
+    white-space:nowrap;cursor:pointer}
+  .tab.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;padding:0 16px}
+  @media(min-width:640px){.grid{grid-template-columns:repeat(3,1fr)}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:4px;overflow:hidden;cursor:pointer}
+  .card img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
+  .card .info{padding:10px 12px 14px}
+  .card h3{font-size:13px;font-weight:600;margin-bottom:6px;min-height:32px}
+  .price{font-size:15px;font-weight:700}
+  .old{font-size:12px;color:var(--grey);text-decoration:line-through;margin-left:6px}
+  .badge{display:inline-block;font-size:10px;letter-spacing:1px;color:#fff;background:var(--wine);
+    padding:3px 7px;border-radius:2px;margin-bottom:6px}
+  .badge.out{background:var(--grey)}
+  #productView,#cartView{display:none}
+  .back{padding:14px 16px;font-size:13px;color:var(--grey);cursor:pointer;letter-spacing:1px}
+  .carousel{position:relative;width:100%;aspect-ratio:1;background:#fff;overflow:hidden}
+  .carousel img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;opacity:0;transition:opacity .25s}
+  .carousel img.on{opacity:1}
+  .dots{position:absolute;bottom:10px;left:0;right:0;display:flex;gap:6px;justify-content:center}
+  .dots i{width:6px;height:6px;border-radius:50%;background:#c9c4bd}
+  .dots i.on{background:var(--ink)}
+  .pinfo{padding:18px 20px}
+  .pinfo h2{font-family:Georgia,serif;font-size:22px;margin:8px 0}
+  .pinfo .price{font-size:22px}
+  .btn{display:block;width:100%;padding:16px;background:var(--ink);color:#fff;border:none;font-size:14px;
+    letter-spacing:2px;text-transform:uppercase;cursor:pointer;border-radius:2px;margin-top:8px}
+  .btn.wine{background:var(--wine)}
+  .btn:disabled{background:var(--grey)}
+  .citem{display:flex;gap:12px;padding:14px 16px;border-bottom:1px solid var(--line);background:#fff}
+  .citem img{width:72px;height:72px;object-fit:cover;border-radius:3px}
+  .citem .nm{flex:1;font-size:13px;font-weight:600}
+  .qty{display:flex;align-items:center;gap:10px;margin-top:8px}
+  .qty button{width:28px;height:28px;border:1px solid var(--line);background:#fff;border-radius:50%;font-size:16px;cursor:pointer}
+  #cartTotal{padding:16px;font-size:18px;font-weight:700;display:flex;justify-content:space-between}
+  .empty{text-align:center;color:var(--grey);padding:60px 0;font-size:14px;letter-spacing:1px;grid-column:1/-1}
+  #overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);display:none;z-index:50}
+  #orderForm{position:fixed;left:0;right:0;bottom:0;background:#fff;border-radius:12px 12px 0 0;
+    padding:22px 20px 30px;display:none;z-index:51}
+  #orderForm input{width:100%;padding:14px;border:1px solid var(--line);border-radius:4px;margin-bottom:12px;font-size:15px}
+  #orderForm h3{font-family:Georgia,serif;margin-bottom:16px}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">BURKER <span>RUSSIA</span></div>
+  <button id="cartBtn" onclick="showCart()">КОРЗИНА<span id="cartCount">0</span></button>
+</header>
+
+<div class="tabs" id="tabs">
+  <button class="tab active" data-f="all">Все</button>
+  <button class="tab" data-f="Watch">Часы</button>
+  <button class="tab" data-f="Jewelry">Украшения</button>
+  <button class="tab" data-f="sale">Sale</button>
+</div>
+
+<div id="catalogView"><div class="grid" id="grid"></div></div>
+
+<div id="productView">
+  <div class="back" onclick="showCatalog()">← НАЗАД К КАТАЛОГУ</div>
+  <div class="carousel" id="car"></div>
+  <div class="pinfo">
+    <span class="badge" id="pvBadge"></span>
+    <h2 id="pvTitle"></h2>
+    <div><span class="price" id="pvPrice"></span><span class="old" id="pvOld"></span></div>
+    <button class="btn" id="pvBtn"></button>
+  </div>
+</div>
+
+<div id="cartView">
+  <div class="back" onclick="showCatalog()">← НАЗАД К КАТАЛОГУ</div>
+  <div id="cartItems"></div>
+  <div id="cartTotal"></div>
+  <div style="padding:0 16px"><button class="btn wine" id="checkoutBtn" onclick="openOrder()">ОФОРМИТЬ ЗАКАЗ</button></div>
+</div>
+
+<div id="overlay" onclick="closeOrder()"></div>
+<div id="orderForm">
+  <h3>Оформление заказа</h3>
+  <input id="fName" placeholder="Ваше имя">
+  <input id="fPhone" placeholder="Телефон">
+  <button class="btn" onclick="sendOrder()">ОТПРАВИТЬ ЗАКАЗ</button>
+</div>
+
+<script>
+const tg = window.Telegram.WebApp; tg.ready(); tg.expand();
+const fmt = n => n.toLocaleString('ru-RU') + ' ₽';
+let cart = JSON.parse(localStorage.getItem('burker_cart') || '{}');
+let filter = 'all', cur = null;
+
+function saveCart(){ localStorage.setItem('burker_cart', JSON.stringify(cart)); updateBadge(); }
+function cartQty(){ return Object.values(cart).reduce((a,b)=>a+b, 0); }
+function updateBadge(){
+  const c = document.getElementById('cartCount');
+  c.style.display = cartQty() ? 'flex' : 'none'; c.textContent = cartQty();
+}
+const filtered = () => PRODUCTS.filter(p =>
+  filter==='all' ? true : filter==='sale' ? p.sale : p.type===filter);
+
+function render(){
+  const g = document.getElementById('grid'); g.innerHTML='';
+  const list = filtered();
+  if(!list.length){ g.innerHTML='<div class="empty">КАТАЛОГ ОБНОВЛЯЕТСЯ</div>'; return; }
+  list.forEach(p=>{
+    const d = document.createElement('div'); d.className='card'; d.onclick=()=>openProduct(p.id);
+    d.innerHTML = `<img loading="lazy" src="${p.images[0]}" alt="">
+      <div class="info">
+        ${p.sale?'<span class="badge">SALE</span>':''}${!p.available?'<span class="badge out">НЕТ В НАЛИЧИИ</span>':''}
+        <h3>${p.title}</h3>
+        <span class="price">${fmt(p.price_rub)}</span>
+        ${p.old_rub?`<span class="old">${fmt(p.old_rub)}</span>`:''}
+      </div>`;
+    g.appendChild(d);
+  });
+}
+document.getElementById('tabs').onclick = e=>{
+  if(!e.target.dataset.f) return;
+  filter = e.target.dataset.f;
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t===e.target));
+  render();
+};
+function show(view){
+  ['catalogView','productView','cartView'].forEach(id=>document.getElementById(id).style.display='none');
+  document.getElementById(view).style.display='block'; window.scrollTo(0,0);
+}
+const showCatalog = ()=>show('catalogView');
+
+function openProduct(id){
+  cur = PRODUCTS.find(p=>p.id===id);
+  const car = document.getElementById('car');
+  car.innerHTML = cur.images.map((s,i)=>`<img src="${s}" class="${i?'':'on'}">`).join('')
+    + `<div class="dots">${cur.images.map((_,j)=>`<i class="${j?'':'on'}"></i>`).join('')}</div>`;
+  car.onclick = ()=>{
+    const imgs=[...car.querySelectorAll('img')], dots=[...car.querySelectorAll('.dots i')];
+    let i = imgs.findIndex(x=>x.classList.contains('on'));
+    i = (i+1) % imgs.length;
+    imgs.forEach((x,k)=>x.classList.toggle('on',k===i));
+    dots.forEach((x,k)=>x.classList.toggle('on',k===i));
+  };
+  document.getElementById('pvTitle').textContent = cur.title;
+  document.getElementById('pvPrice').textContent = fmt(cur.price_rub);
+  document.getElementById('pvOld').textContent = cur.old_rub ? fmt(cur.old_rub) : '';
+  document.getElementById('pvBadge').textContent = cur.sale ? 'SALE' : '';
+  const btn = document.getElementById('pvBtn');
+  if(!cur.available){ btn.textContent='НЕТ В НАЛИЧИИ'; btn.disabled=true; btn.onclick=null; }
+  else if(cart[cur.id]){ btn.textContent='В КОРЗИНЕ ✓'; btn.disabled=false; btn.onclick=showCart; }
+  else { btn.textContent='ДОБАВИТЬ В КОРЗИНУ'; btn.disabled=false;
+    btn.onclick=()=>{ cart[cur.id]=1; saveCart(); openProduct(cur.id); }; }
+  show('productView');
+}
+
+function showCart(){
+  const box=document.getElementById('cartItems'); box.innerHTML='';
+  let total=0;
+  Object.entries(cart).forEach(([id,qty])=>{
+    const p=PRODUCTS.find(x=>x.id==id); if(!p) return;
+    total += p.price_rub*qty;
+    const d=document.createElement('div'); d.className='citem';
+    d.innerHTML=`<img src="${p.images[0]}"><div class="nm">${p.title}
+      <div class="price" style="font-size:14px">${fmt(p.price_rub*qty)}</div>
+      <div class="qty"><button onclick="chQty(${id},-1)">−</button><span>${qty}</span>
+      <button onclick="chQty(${id},1)">+</button></div></div>`;
+    box.appendChild(d);
+  });
+  document.getElementById('cartTotal').innerHTML = total
+    ? `<span>ИТОГО</span><span>${fmt(total)}</span>` : '';
+  document.getElementById('checkoutBtn').style.display = total ? 'block' : 'none';
+  show('cartView');
+}
+function chQty(id,d){ cart[id]=(cart[id]||0)+d; if(cart[id]<=0) delete cart[id]; saveCart(); showCart(); }
+
+function openOrder(){
+  if(!cartQty()) return;
+  document.getElementById('overlay').style.display='block';
+  document.getElementById('orderForm').style.display='block';
+}
+function closeOrder(){
+  document.getElementById('overlay').style.display='none';
+  document.getElementById('orderForm').style.display='none';
+}
+function sendOrder(){
+  const name=document.getElementById('fName').value.trim();
+  const phone=document.getElementById('fPhone').value.trim();
+  if(!name||!phone){ tg.showAlert('Заполните имя и телефон'); return; }
+  const items=Object.entries(cart).map(([id,qty])=>{
+    const p=PRODUCTS.find(x=>x.id==id);
+    return `${p.title} ×${qty} — ${fmt(p.price_rub*qty)}`;
+  });
+  const total=Object.entries(cart).reduce((s,[id,q])=>s+PRODUCTS.find(x=>x.id==id).price_rub*q,0);
+  tg.sendData(JSON.stringify({name,phone,items,total:`${total.toLocaleString('ru-RU')} ₽`}));
+  cart={}; saveCart(); closeOrder(); showCatalog();
+  tg.showAlert('Заказ отправлен! Мы свяжемся с вами.');
+}
+render(); updateBadge();
+</script>
+</body>
+</html>
