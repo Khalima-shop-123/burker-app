@@ -116,6 +116,8 @@
 </div>
 
 <script>
+// округление цен вверх до сотен: 1566 -> 1600
+PRODUCTS.forEach(p => { p.price_rub = Math.ceil(p.price_rub/100)*100; if (p.old_rub) p.old_rub = Math.ceil(p.old_rub/100)*100; });
 const tg = window.Telegram.WebApp; tg.ready(); tg.expand();
 const fmt = n => n.toLocaleString('ru-RU') + ' ₽';
 let cart = JSON.parse(localStorage.getItem('burker_cart') || '{}');
