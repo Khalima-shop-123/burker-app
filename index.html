@@ -18,13 +18,21 @@
     padding:8px 14px;font-size:13px;letter-spacing:1px;cursor:pointer}
   #cartCount{position:absolute;top:-6px;right:-6px;background:var(--wine);color:#fff;border-radius:50%;
     width:20px;height:20px;font-size:11px;display:none;align-items:center;justify-content:center}
-  .tabs{display:flex;gap:8px;padding:14px 16px;overflow-x:auto}
+  .search{padding:12px 16px 0}
+  .search input{width:100%;padding:12px 16px 12px 40px;border:1px solid var(--line);border-radius:22px;
+    font-size:14px;background:#fff url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%238a8a8a" viewBox="0 0 16 16"><path d="M11.7 10.3a6.5 6.5 0 1 0-1.4 1.4l3 3 1-1-2.6-2.4zM6.5 11a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/></svg>') no-repeat 14px center}
+  .tabs{display:flex;gap:8px;padding:12px 16px;overflow-x:auto}
   .tab{border:1px solid var(--line);background:#fff;border-radius:20px;padding:8px 16px;font-size:13px;
     white-space:nowrap;cursor:pointer}
   .tab.active{background:var(--ink);color:#fff;border-color:var(--ink)}
   .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;padding:0 16px}
   @media(min-width:640px){.grid{grid-template-columns:repeat(3,1fr)}}
+  .group-h{grid-column:1/-1;font-family:Georgia,serif;font-size:17px;letter-spacing:4px;
+    padding:18px 0 2px;border-bottom:1px solid var(--ink);margin-top:6px}
+  .group-h small{font-family:Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:1px;color:var(--grey);margin-left:8px}
   .card{background:#fff;border:1px solid var(--line);border-radius:4px;overflow:hidden;cursor:pointer}
+  .card.na img{opacity:.4}
+  .card.na h3{color:var(--grey)}
   .card img{width:100%;aspect-ratio:1;object-fit:cover;display:block}
   .card .info{padding:10px 12px 14px}
   .card h3{font-size:13px;font-weight:600;margin-bottom:6px;min-height:32px}
@@ -68,6 +76,10 @@
   <button id="cartBtn" onclick="showCart()">КОРЗИНА<span id="cartCount">0</span></button>
 </header>
 
+<div class="search">
+  <input id="searchInput" type="search" placeholder="Поиск: Diana, Sophie, Ava…">
+</div>
+
 <div class="tabs" id="tabs">
   <button class="tab active" data-f="all">Все</button>
   <button class="tab" data-f="Watch">Часы</button>
@@ -107,7 +119,7 @@
 const tg = window.Telegram.WebApp; tg.ready(); tg.expand();
 const fmt = n => n.toLocaleString('ru-RU') + ' ₽';
 let cart = JSON.parse(localStorage.getItem('burker_cart') || '{}');
-let filter = 'all', cur = null;
+let filter = 'all', query = '', cur = null;
 
 function saveCart(){ localStorage.setItem('burker_cart', JSON.stringify(cart)); updateBadge(); }
 function cartQty(){ return Object.values(cart).reduce((a,b)=>a+b, 0); }
@@ -115,25 +127,51 @@ function updateBadge(){
   const c = document.getElementById('cartCount');
   c.style.display = cartQty() ? 'flex' : 'none'; c.textContent = cartQty();
 }
+const modelOf = p => p.title.split(' ')[0].toUpperCase();
+// в наличии — выше, нет в наличии — внизу списка
+const sortAvail = list => [...list].sort((a,b)=>(b.available?1:0)-(a.available?1:0));
 const filtered = () => PRODUCTS.filter(p =>
   filter==='all' ? true : filter==='sale' ? p.sale : p.type===filter);
 
+function cardHTML(p){
+  const d = document.createElement('div');
+  d.className = 'card' + (p.available ? '' : ' na');
+  d.onclick = ()=>openProduct(p.id);
+  d.innerHTML = `<img loading="lazy" src="${p.images[0]}" alt="">
+    <div class="info">
+      ${p.sale?'<span class="badge">SALE</span>':''}${!p.available?'<span class="badge out">НЕТ В НАЛИЧИИ</span>':''}
+      <h3>${p.title}</h3>
+      <span class="price">${fmt(p.price_rub)}</span>
+      ${p.old_rub?`<span class="old">${fmt(p.old_rub)}</span>`:''}
+    </div>`;
+  return d;
+}
+
 function render(){
   const g = document.getElementById('grid'); g.innerHTML='';
-  const list = filtered();
-  if(!list.length){ g.innerHTML='<div class="empty">КАТАЛОГ ОБНОВЛЯЕТСЯ</div>'; return; }
-  list.forEach(p=>{
-    const d = document.createElement('div'); d.className='card'; d.onclick=()=>openProduct(p.id);
-    d.innerHTML = `<img loading="lazy" src="${p.images[0]}" alt="">
-      <div class="info">
-        ${p.sale?'<span class="badge">SALE</span>':''}${!p.available?'<span class="badge out">НЕТ В НАЛИЧИИ</span>':''}
-        <h3>${p.title}</h3>
-        <span class="price">${fmt(p.price_rub)}</span>
-        ${p.old_rub?`<span class="old">${fmt(p.old_rub)}</span>`:''}
-      </div>`;
-    g.appendChild(d);
-  });
+  const q = query.trim().toLowerCase();
+  let list = filtered().filter(p => !q || p.title.toLowerCase().includes(q));
+
+  if(q){
+    // режим поиска: плоский список, в наличии выше
+    sortAvail(list).forEach(p => g.appendChild(cardHTML(p)));
+  } else {
+    // обычный режим: группы по моделям, внутри — в наличии выше
+    const groups = {};
+    sortAvail(list).forEach(p => { const m = modelOf(p); (groups[m]=groups[m]||[]).push(p); });
+    Object.keys(groups).sort().forEach(m => {
+      const h = document.createElement('div'); h.className = 'group-h';
+      h.innerHTML = `${m}<small>${groups[m].length}</small>`;
+      g.appendChild(h);
+      groups[m].forEach(p => g.appendChild(cardHTML(p)));
+    });
+  }
+  if(!g.children.length) g.innerHTML='<div class="empty">НИЧЕГО НЕ НАЙДЕНО</div>';
 }
+
+document.getElementById('searchInput').addEventListener('input', e => {
+  query = e.target.value; render();
+});
 document.getElementById('tabs').onclick = e=>{
   if(!e.target.dataset.f) return;
   filter = e.target.dataset.f;
