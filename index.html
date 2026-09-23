@@ -71,6 +71,7 @@
   .paytotal{font-size:17px;font-weight:700;margin-bottom:12px}
   .paynote{font-size:12px;color:var(--grey);margin:10px 0 14px;line-height:1.5}
   .variants{padding:4px 16px 24px}
+  .pinfo .variants{padding:6px 0 14px}
   .variants h4{font-family:Georgia,serif;font-size:13px;letter-spacing:2px;margin-bottom:10px;color:var(--ink)}
   .vrow{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}
   .vcard{flex:0 0 104px;background:#fff;border:1px solid var(--line);border-radius:4px;overflow:hidden;cursor:pointer}
@@ -124,12 +125,12 @@
     <span class="badge" id="pvBadge"></span>
     <h2 id="pvTitle"></h2>
     <div><span class="price" id="pvPrice"></span><span class="old" id="pvOld"></span></div>
-    <div class="colorrow" id="colorRow"></div>
     <div id="sizeRow"></div>
+    <div class="colorrow" id="colorRow"></div>
+    <div class="variants" id="variants"></div>
     <button class="btn" id="pvBtn"></button>
   </div>
   <div class="variants" id="complete"></div>
-  <div class="variants" id="variants"></div>
 </div>
 
 <div id="cartView">
@@ -174,6 +175,8 @@ const tg = window.Telegram.WebApp; tg.ready(); tg.expand();
 const fmt = n => n.toLocaleString('ru-RU') + ' ₽';
 const PAY_LINK = 'https://qr.nspk.ru/AS1A004446Q653U18ML9ASO87OP4JV5Q?type=01&bank=100000000111&crc=E980';
 let cart = JSON.parse(localStorage.getItem('burker_cart') || '{}');
+// чистим позиции, которых больше нет в каталоге (после обновления выгрузки)
+Object.keys(cart).forEach(id=>{ if(!PRODUCTS.find(x=>x.id==id)) delete cart[id]; });
 let filter = 'all', query = '', cur = null;
 
 function saveCart(){ localStorage.setItem('burker_cart', JSON.stringify(cart)); updateBadge(); }
@@ -188,6 +191,7 @@ const colorTokens = t => COLORS.filter(c => t.toLowerCase().includes(c));
 const colorKeyOf = p => p.title.toLowerCase().split(/\s+/).slice(1).filter(w=>w!=='petite').join(' ');
 const COLOR_HEX={gold:'#c9a24b',silver:'#b9bcc2',burgundy:'#6b1220',black:'#1a1a1a',blue:'#3b5b8c',green:'#5a7d4f',white:'#e8e6e1',rose:'#c98a8a',brown:'#7a5c3e',grey:'#9a9a9a'};
 const mainColor=t=>COLORS.find(c=>t.toLowerCase().includes(c))||null;
+const kindKeyOf=p=>p.title.toLowerCase().split(/\s+/).filter(w=>w!=='petite'&&!COLORS.includes(w)).join(' ');
 function quickAdd(id,btn){ cart[id]=(cart[id]||0)+1; saveCart(); if(btn){btn.textContent='\u2713'; btn.disabled=true;} }
 // в наличии — выше, нет в наличии — внизу списка
 const sortAvail = list => [...list].sort((a,b)=>(b.available?1:0)-(a.available?1:0));
@@ -266,14 +270,14 @@ function openProduct(id){
   else if(cart[cur.id]){ btn.textContent='В КОРЗИНЕ ✓'; btn.disabled=false; btn.onclick=showCart; }
   else { btn.textContent='ДОБАВИТЬ В КОРЗИНУ'; btn.disabled=false;
     btn.onclick=()=>{ cart[cur.id]=1; saveCart(); openProduct(cur.id); }; }
-  // ЦВЕТ: точки-переключатели как на официальном сайте
+  // ЦВЕТ: только украшения, только та же категория изделия (колье<->колье, браслет<->браслет)
   const crow=document.getElementById('colorRow'); crow.innerHTML='';
-  {
-    const m=modelOf(cur);
+  if(cur.type==='Jewelry'){
     const isP=cur.title.toLowerCase().includes('petite');
-    const ck=colorKeyOf(cur);
-    const sibs=PRODUCTS.filter(p=>p.id!==cur.id && modelOf(p)===m
-        && p.title.toLowerCase().includes('petite')===isP && colorKeyOf(p)!==ck);
+    const sibs=PRODUCTS.filter(p=>p.id!==cur.id && p.type==='Jewelry'
+        && kindKeyOf(p)===kindKeyOf(cur)
+        && p.title.toLowerCase().includes('petite')===isP
+        && colorKeyOf(p)!==colorKeyOf(cur));
     if(sibs.length){
       const items=[cur].concat(sibs);
       crow.innerHTML='<span class="cl">ЦВЕТ:</span>'+items.map((p,i)=>{
@@ -312,9 +316,13 @@ function openProduct(id){
            </div>`).join('') + `</div>`;
     }
   }
-  // "другие варианты" той же модели: в наличии — сначала
+  // "другие варианты": только часы, та же модель и тот же размер (Petite<->Petite, Normal<->Normal)
   const m = modelOf(cur);
-  const vs = sortAvail(PRODUCTS.filter(p => modelOf(p)===m && p.id!==cur.id));
+  const isPetite = cur.title.toLowerCase().includes('petite');
+  const vs = cur.type==='Watch'
+    ? sortAvail(PRODUCTS.filter(p => modelOf(p)===m && p.id!==cur.id
+        && p.title.toLowerCase().includes('petite')===isPetite))
+    : [];
   const vbox = document.getElementById('variants');
   if(vs.length){
     vbox.innerHTML = `<h4>ДРУГИЕ ВАРИАНТЫ: ${m}</h4><div class="vrow">` + vs.map(p=>
