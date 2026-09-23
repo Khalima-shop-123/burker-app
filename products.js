@@ -1,10 +1,10 @@
 const PRODUCTS = [
  {
-  "id": 11098149716295,
+  "id": 54844918038855,
   "title": "Ava Petite Silver Burgundy Bracelet",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -16,11 +16,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 11098149257543,
+  "id": 54844916760903,
   "title": "Ava Silver Burgundy Bracelet",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -33,11 +33,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914053882183,
+  "id": 54372485890375,
   "title": "Diana Petite Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -50,11 +50,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914053226823,
+  "id": 54372483825991,
   "title": "Victoria Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -66,11 +66,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914051719495,
+  "id": 54372478091591,
   "title": "Victoria Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -86,11 +86,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914049786183,
+  "id": 54372470358343,
   "title": "Olivia Petite Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -104,11 +104,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914048311623,
+  "id": 54372463640903,
   "title": "Olivia Petite Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -122,13 +122,13 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914046345543,
+  "id": 54372455121223,
   "title": "Sophie Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
-  "available": true,
+  "available": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sophie_gold_silver_burgundy_1.png?v=1785136654",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sophie_gold_silver_burgundy_2.png?v=1785136654",
@@ -138,13 +138,13 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914044870983,
+  "id": 54372449255751,
   "title": "Sophie Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
-  "available": true,
+  "available": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sophie_silver_burgundy_1.png?v=1784574917",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sophie_silver_burgundy_2.png?v=1784574918",
@@ -155,11 +155,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914044412231,
+  "id": 54372448141639,
   "title": "Isabell Petite Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -172,11 +172,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914043986247,
+  "id": 54372447322439,
   "title": "Isabell Petite Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -191,11 +191,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914043494727,
+  "id": 54372445880647,
   "title": "Macy Petite Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -208,11 +208,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914043035975,
+  "id": 54372444733767,
   "title": "Macy Petite Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -225,11 +225,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914042478919,
+  "id": 54372443226439,
   "title": "Diana Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -242,11 +242,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914041987399,
+  "id": 54372442308935,
   "title": "Julia Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -257,13 +257,13 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914041299271,
+  "id": 54372440932679,
   "title": "Julia Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
-  "available": true,
+  "available": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Julia_silver_burgundy_1.png?v=1784576411",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Julia_silver_burgundy_2.png?v=1784576411",
@@ -272,11 +272,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914040578375,
+  "id": 54372439294279,
   "title": "Olivia Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -290,11 +290,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914040086855,
+  "id": 54372438114631,
   "title": "Olivia Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -309,11 +309,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914014626119,
+  "id": 54372336894279,
   "title": "Ruby Petite Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -324,11 +324,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914014298439,
+  "id": 54372336238919,
   "title": "Ruby Petite Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -339,11 +339,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914013937991,
+  "id": 54372335550791,
   "title": "Macy Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -357,11 +357,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914013512007,
+  "id": 54372334829895,
   "title": "Macy Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -378,11 +378,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914012266823,
+  "id": 54372328505671,
   "title": "Isabell Gold Silver Burgundy",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -396,11 +396,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914011873607,
+  "id": 54372326211911,
   "title": "Isabell Silver Burgundy",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -414,11 +414,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914054373703,
+  "id": 54372487594311,
   "title": "Diana Petite Gold Olive Green",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -433,11 +433,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914054078791,
+  "id": 54372486381895,
   "title": "Diana Petite Silver Olive Green",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -451,11 +451,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914053390663,
+  "id": 54372484088135,
   "title": "Victoria Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 9639,
-  "old_rub": 16065,
+  "price_rub": 9700,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -470,11 +470,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914053062983,
+  "id": 54372483498311,
   "title": "Victoria Gold Olive Green",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -488,11 +488,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914052538695,
+  "id": 54372481466695,
   "title": "Victoria Silver Olive Green",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -507,11 +507,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914050277703,
+  "id": 54372472455495,
   "title": "Olivia Petite Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 16065,
+  "price_rub": 10400,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -523,11 +523,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914049327431,
+  "id": 54372468261191,
   "title": "Olivia Petite Gold Olive Green",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -541,11 +541,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914048835911,
+  "id": 54372466032967,
   "title": "Olivia Petite Silver Olive Green",
   "type": "Watch",
-  "price_rub": 9315,
-  "old_rub": 13365,
+  "price_rub": 9400,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -558,11 +558,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914046902599,
+  "id": 54372457578823,
   "title": "Sophie Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 9639,
-  "old_rub": 16065,
+  "price_rub": 9700,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -575,11 +575,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914045854023,
+  "id": 54372453122375,
   "title": "Sophie Gold Olive Green",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": false,
   "images": [
@@ -591,11 +591,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914045264199,
+  "id": 54372450959687,
   "title": "Sophie Silver Olive Green",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -607,11 +607,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914044543303,
+  "id": 54372448371015,
   "title": "Isabell Petite Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -623,11 +623,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914044248391,
+  "id": 54372447912263,
   "title": "Isabell Petite Gold Olive Green",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -640,11 +640,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914044117319,
+  "id": 54372447650119,
   "title": "Isabell Petite Silver Olive Green",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -658,11 +658,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914043691335,
+  "id": 54372446241095,
   "title": "Macy Petite Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 11246,
-  "old_rub": 16065,
+  "price_rub": 11300,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -674,11 +674,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914043330887,
+  "id": 54372445290823,
   "title": "Macy Petite Gold Olive Green",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -691,11 +691,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914043167047,
+  "id": 54372444963143,
   "title": "Macy Petite Silver Olive Green",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -708,11 +708,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914042741063,
+  "id": 54372443685191,
   "title": "Diana Gold Olive Green",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -727,11 +727,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914042577223,
+  "id": 54372443423047,
   "title": "Diana Silver Olive Green",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -744,11 +744,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914042118471,
+  "id": 54372442538311,
   "title": "Julia Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 12852,
-  "old_rub": 16065,
+  "price_rub": 12900,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -761,11 +761,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914041856327,
+  "id": 54372441882951,
   "title": "Julia Gold Olive Green",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": false,
   "images": [
@@ -775,11 +775,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914041692487,
+  "id": 54372441653575,
   "title": "Julia Silver Olive Green",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -792,11 +792,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914040873287,
+  "id": 54372439949639,
   "title": "Olivia Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -810,11 +810,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914040447303,
+  "id": 54372438835527,
   "title": "Olivia Gold Olive Green",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -830,11 +830,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914040283463,
+  "id": 54372438507847,
   "title": "Olivia Silver Olive Green",
   "type": "Watch",
-  "price_rub": 7965,
-  "old_rub": 13365,
+  "price_rub": 8000,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -849,11 +849,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914014789959,
+  "id": 54372337221959,
   "title": "Ruby Petite Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 6426,
-  "old_rub": 16065,
+  "price_rub": 6500,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -865,11 +865,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914014527815,
+  "id": 54372336730439,
   "title": "Ruby Petite Gold Olive Green",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -882,11 +882,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914014396743,
+  "id": 54372336468295,
   "title": "Ruby Petite Silver Olive Green",
   "type": "Watch",
-  "price_rub": 5265,
-  "old_rub": 13365,
+  "price_rub": 5300,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -898,11 +898,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914014036295,
+  "id": 54372335714631,
   "title": "Macy Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 11246,
-  "old_rub": 16065,
+  "price_rub": 11300,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -915,11 +915,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914013839687,
+  "id": 54372335386951,
   "title": "Macy Gold Olive Green",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -932,11 +932,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914013675847,
+  "id": 54372335092039,
   "title": "Macy Silver Olive Green",
   "type": "Watch",
-  "price_rub": 9315,
-  "old_rub": 13365,
+  "price_rub": 9400,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -948,11 +948,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914012332359,
+  "id": 54372328702279,
   "title": "Isabell Gold Silver Olive Green",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -965,11 +965,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914012135751,
+  "id": 54372328276295,
   "title": "Isabell Gold Olive Green",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -982,11 +982,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914012070215,
+  "id": 54372328112455,
   "title": "Isabell Silver Olive Green",
   "type": "Watch",
-  "price_rub": 7965,
-  "old_rub": 13365,
+  "price_rub": 8000,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -1001,11 +1001,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914011709767,
+  "id": 54372325785927,
   "title": "Ava Petite Gold Olive Green Bracelet",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1014,11 +1014,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914011545927,
+  "id": 54372325392711,
   "title": "Ava Petite Silver Olive Green Bracelet",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1027,11 +1027,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914011316551,
+  "id": 54372324901191,
   "title": "Ava Gold Olive Green Bracelet",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1041,11 +1041,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10914011185479,
+  "id": 54372324639047,
   "title": "Ava Silver Olive Green Bracelet",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1055,11 +1055,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844968616263,
-  "title": "Mae Anklet",
+  "id": 54113023295815,
+  "title": "Mae Anklet Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1069,11 +1069,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844968452423,
-  "title": "Lily Anklet",
+  "id": 54113023328583,
+  "title": "Mae Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mae_anklet_silver_1.png?v=1781536858",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mae_anklet_gold_1.png?v=1781536846",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mae_Anklet.jpg?v=1781875821"
+  ]
+ },
+ {
+  "id": 54113023099207,
+  "title": "Lily Anklet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1083,11 +1097,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844967993671,
-  "title": "Emma Anklet",
+  "id": 54113023131975,
+  "title": "Lily Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lily_anklet_silver_1.png?v=1781536929",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lily_anklet_gold_1.png?v=1781536895",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lily_Anklet.jpg?v=1781875787"
+  ]
+ },
+ {
+  "id": 54113022607687,
+  "title": "Emma Anklet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1097,11 +1125,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844967731527,
-  "title": "Zoey Anklet",
+  "id": 54113022640455,
+  "title": "Emma Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Emma_anklet_silver_1.png?v=1781536977",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Emma_anklet_gold_1.png?v=1781536967",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Emma_Anklet.jpg?v=1781875875"
+  ]
+ },
+ {
+  "id": 54113022214471,
+  "title": "Zoey Anklet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1112,11 +1154,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844967534919,
-  "title": "Wendy Anklet",
+  "id": 54113022247239,
+  "title": "Zoey Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Zoey_anklet_silver_1.png?v=1781537023",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Zoey_anklet_gold_1.png?v=1781537013",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Zoey_Anklet.jpg?v=1781875751",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Zoey_Anklet2.jpg?v=1781875751"
+  ]
+ },
+ {
+  "id": 54113021919559,
+  "title": "Wendy Anklet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1127,11 +1184,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844967305543,
-  "title": "Cindy Anklet",
+  "id": 54113021952327,
+  "title": "Wendy Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Wendy_anket_silver_1.png?v=1781537064",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Wendy_anket_gold_1.png?v=1781537053",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Wendy_Anklet.jpg?v=1781875715",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Wendy_Anklet2.jpg?v=1781875717"
+  ]
+ },
+ {
+  "id": 54113021624647,
+  "title": "Cindy Anklet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1143,11 +1215,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844967010631,
-  "title": "Carola Anklet",
+  "id": 54113021657415,
+  "title": "Cindy Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cindy_anklet_silver_1.png?v=1781537107",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cindy_anklet_gold_1.png?v=1781537096",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cindy_Anklet.jpg?v=1781875671",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cindy_Anklet1.jpg?v=1781875670",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cindy_Anklet2.jpg?v=1781875670"
+  ]
+ },
+ {
+  "id": 54113021165895,
+  "title": "Carola Anklet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1158,11 +1246,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844966781255,
-  "title": "Diona Anklet",
+  "id": 54113021198663,
+  "title": "Carola Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Carola_anklet_silver_1.png?v=1781537170",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Carola_anklet_gold_1.png?v=1781537162",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Carola_Anklet.jpg?v=1781875577",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Carola_Anklet2.jpg?v=1781875577"
+  ]
+ },
+ {
+  "id": 54113020707143,
+  "title": "Diona Anklet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1173,11 +1276,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844966519111,
-  "title": "Alaia Anklet",
+  "id": 54113020739911,
+  "title": "Diona Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_anklet_silver_1.png?v=1781537213",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_anklet_gold_1.png?v=1781537205",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Anklet1.jpg?v=1781875503",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Anklet.jpg?v=1781875503"
+  ]
+ },
+ {
+  "id": 54113019658567,
+  "title": "Alaia Anklet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1188,24 +1306,52 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844966027591,
-  "title": "Velora Anklet",
+  "id": 54113019691335,
+  "title": "Alaia Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
-  "available": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_anklet_silver_1.png?v=1781537256",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_anklet_gold_1.png?v=1781537246",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Anklet.jpg?v=1781875459",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Anklet1.jpg?v=1781875460"
+  ]
+ },
+ {
+  "id": 54113014284615,
+  "title": "Velora Anklet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_anklet_gold_1.png?v=1781537293",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_anklet_silver_1.png?v=1781537304"
   ]
  },
  {
-  "id": 10844964815175,
-  "title": "Vila Bracelet",
+  "id": 54113014317383,
+  "title": "Velora Anklet Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_anklet_silver_1.png?v=1781537304",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_anklet_gold_1.png?v=1781537293"
+  ]
+ },
+ {
+  "id": 54113011794247,
+  "title": "Vila Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1214,11 +1360,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844963963207,
+  "id": 54113011827015,
+  "title": "Vila Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vila_bracelet_silver_1.png?v=1783935908",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vila_bracelet_gold_1.png?v=1783935900"
+  ]
+ },
+ {
+  "id": 54113010778439,
   "title": "Chloe Gold Silver Necklace",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1227,11 +1386,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844962881863,
-  "title": "Alexis Ring",
+  "id": 54113009664327,
+  "title": "Alexis Ring Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1240,11 +1399,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844962390343,
-  "title": "Ciel Ring",
+  "id": 54113009697095,
+  "title": "Alexis Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alexis_ring_silver_1_41daf17e-a01d-44a4-92db-1f9a1b5090bc.png?v=1783938445",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alexis_ring_gold_1.png?v=1783938424"
+  ]
+ },
+ {
+  "id": 54113006321991,
+  "title": "Ciel Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1253,11 +1425,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838431924551,
-  "title": "Rosia Bracelet",
+  "id": 54113006354759,
+  "title": "Ciel Ring Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_ring_silver_1.png?v=1783936561",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_ring_gold_1.png?v=1783936551"
+  ]
+ },
+ {
+  "id": 54082510618951,
+  "title": "Rosia Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1266,11 +1451,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838426452295,
-  "title": "Solie Ring",
+  "id": 54082510651719,
+  "title": "Rosia Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Rosia_bracelet_silver_1.png?v=1783935960",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Rosia_bracelet_gold_1.png?v=1783935950"
+  ]
+ },
+ {
+  "id": 54082466545991,
+  "title": "Solie Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1279,11 +1477,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838425862471,
-  "title": "Zaya Ring",
+  "id": 54082466578759,
+  "title": "Solie Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Solie_ring_silver_1.png?v=1783936452",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Solie_ring_gold_1.png?v=1783936441"
+  ]
+ },
+ {
+  "id": 54082460516679,
+  "title": "Zaya Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1292,11 +1503,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838425469255,
-  "title": "Orelia Ring",
+  "id": 54082460549447,
+  "title": "Zaya Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Zaya_ring_silver_1.png?v=1783938355",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Zaya_ring_gold_1.png?v=1783938346"
+  ]
+ },
+ {
+  "id": 54082458485063,
+  "title": "Orelia Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1305,11 +1529,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838425010503,
-  "title": "Rosia Ring",
+  "id": 54082458517831,
+  "title": "Orelia Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orelia_ring_silver_1.png?v=1783936524",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orelia_ring_gold_1.png?v=1783936513"
+  ]
+ },
+ {
+  "id": 54082455699783,
+  "title": "Rosia Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1318,11 +1555,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838424191303,
-  "title": "Velia Ring",
+  "id": 54082455732551,
+  "title": "Rosia Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Rosia_ring_silver_1.png?v=1783936589",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Rosia_ring_gold_1.png?v=1783936729"
+  ]
+ },
+ {
+  "id": 54082449637703,
+  "title": "Velia Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1333,11 +1583,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838423830855,
-  "title": "Alora Ring",
+  "id": 54082449670471,
+  "title": "Velia Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velia_ring_silver_1.png?v=1783936486",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velia_ring_gold_1.png?v=1783936478",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velia_Ring2.jpg?v=1784048315",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velia_Ring.jpg?v=1784048315"
+  ]
+ },
+ {
+  "id": 54082447868231,
+  "title": "Alora Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1348,11 +1613,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838423339335,
-  "title": "Vivia Ring",
+  "id": 54082447900999,
+  "title": "Alora Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alora_ring_silver_1.png?v=1783938391",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alora_ring_gold_1.png?v=1783938381",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alora_Ring2.jpg?v=1784048357",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alora_Ring.jpg?v=1784048357"
+  ]
+ },
+ {
+  "id": 54082445771079,
+  "title": "Vivia Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1363,11 +1643,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838422356295,
-  "title": "Nolia Earrings",
+  "id": 54082445803847,
+  "title": "Vivia Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vivia_ring_silver_1.png?v=1783938320",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vivia_ring_gold_1.png?v=1783938313",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vivia_Ring.jpg?v=1784048410",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vivia_Ring2.jpg?v=1784048409"
+  ]
+ },
+ {
+  "id": 54082440528199,
+  "title": "Nolia Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1377,11 +1672,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838421209415,
-  "title": "Nolia Necklace",
+  "id": 54082440560967,
+  "title": "Nolia Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_earrings_silver_1.png?v=1783935845",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_earrings_gold_1.png?v=1783935832",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_Earrings.jpg?v=1784048444"
+  ]
+ },
+ {
+  "id": 54082435449159,
+  "title": "Nolia Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1392,11 +1701,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10838418424135,
-  "title": "Nolia Bracelet",
+  "id": 54082435481927,
+  "title": "Nolia Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_necklace_silver_1.png?v=1783936099",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_necklace_gold_1.png?v=1783936089",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_Necklace.jpg?v=1784048496",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_Necklace2.jpg?v=1784048495"
+  ]
+ },
+ {
+  "id": 54082407891271,
+  "title": "Nolia Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1407,11 +1731,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735820144967,
-  "title": "Linda Necklace",
+  "id": 54082407924039,
+  "title": "Nolia Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_bracelet_silver_1.png?v=1783936011",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_bracelet_gold_1.png?v=1783936001",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_Bracelet.jpg?v=1784047810",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nolia_Bracelet2.jpg?v=1784047810"
+  ]
+ },
+ {
+  "id": 53655472701767,
+  "title": "Linda Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1420,11 +1759,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735819948359,
-  "title": "Lucky Necklace",
+  "id": 53655472734535,
+  "title": "Linda Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Linda_necklace_silver_1.png?v=1783936210",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Linda_necklace_gold_1.png?v=1783936203"
+  ]
+ },
+ {
+  "id": 53655471653191,
+  "title": "Lucky Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1434,11 +1786,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735819850055,
-  "title": "Chloe Necklace",
+  "id": 53655471685959,
+  "title": "Lucky Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_necklace_silver_1.png?v=1783936372",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_necklace_gold_1.png?v=1783936361",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_Necklace.jpg?v=1784049692"
+  ]
+ },
+ {
+  "id": 53655471259975,
+  "title": "Chloe Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1447,11 +1813,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735774466375,
-  "title": "Veya Earrings",
+  "id": 53655471292743,
+  "title": "Chloe Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Chloe_necklace_silver_1.png?v=1783936294",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Chloe_necklace_gold_1.png?v=1783936285"
+  ]
+ },
+ {
+  "id": 53655353753927,
+  "title": "Veya Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1462,11 +1841,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735774335303,
-  "title": "Lucky Earrings",
+  "id": 53655353786695,
+  "title": "Veya Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Veya_earrings_silver_1.png?v=1783936335",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Veya_earrings_gold_1.png?v=1783936324",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Veya_Earrings2.jpg?v=1784049392",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Veya_Earrings.jpg?v=1784049392"
+  ]
+ },
+ {
+  "id": 53655353557319,
+  "title": "Lucky Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1476,11 +1870,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735770403143,
-  "title": "Lucky Bracelet",
+  "id": 53655353590087,
+  "title": "Lucky Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_earrings_silver_1.png?v=1783936165",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_earrings_gold_1.png?v=1783936155",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_Earrings.jpg?v=1784049818"
+  ]
+ },
+ {
+  "id": 53655333208391,
+  "title": "Lucky Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1491,11 +1899,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694746014023,
+  "id": 53655333241159,
+  "title": "Lucky Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_bracelet_silver_1.png?v=1783936060",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_bracelet_gold_1.png?v=1783936050",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_Bracelet2.jpg?v=1784049864",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lucky_Bracelet.jpg?v=1784049864"
+  ]
+ },
+ {
+  "id": 53490476646727,
   "title": "Ava Petite Silver Black Bracelet",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1503,24 +1926,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9674421698887,
+  "id": 50324439662919,
   "title": "Ava Silver Black Bracelet",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
-  "available": true,
+  "available": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_43db5f91-c993-478d-ae55-f7b806b506e3.png?v=1728891557",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ava_silver_black_2.png?v=1784530654"
   ]
  },
  {
-  "id": 10844969697607,
+  "id": 54113024672071,
   "title": "Flora Silver Pink Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1531,11 +1954,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735770075463,
-  "title": "Liora Bracelet",
+  "id": 53655331733831,
+  "title": "Liora Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": false,
   "images": [
@@ -1545,11 +1968,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735769944391,
-  "title": "Velora Bracelet",
+  "id": 53655331766599,
+  "title": "Liora Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Liora_bracelet_silver_1_88dfdc08-96c2-478a-8124-4abdec5b3175.png?v=1780914979",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Liora_bracelet_gold_1.png?v=1780914964",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/LioraBracelet.jpg?v=1781007484"
+  ]
+ },
+ {
+  "id": 53655331340615,
+  "title": "Velora Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1559,11 +1996,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735769813319,
-  "title": "Isola Bracelet",
+  "id": 53655331373383,
+  "title": "Velora Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_bracelet_silver_1.png?v=1780915448",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_bracelet_gold_1.png?v=1780915422",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_Bracelet.jpg?v=1781012236"
+  ]
+ },
+ {
+  "id": 53655331176775,
+  "title": "Isola Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1574,11 +2025,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735820079431,
-  "title": "Stella Necklace",
+  "id": 53655331209543,
+  "title": "Isola Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Isola_bracelet_silver_1.png?v=1780914741",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Isola_bracelet_gold_1.png?v=1780914737",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Isola_Bracelet.jpg?v=1781012292",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Isola_Bracelet2.jpg?v=1781012293"
+  ]
+ },
+ {
+  "id": 53655472570695,
+  "title": "Stella Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1589,11 +2055,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735819718983,
-  "title": "Velora Necklace",
+  "id": 53655472603463,
+  "title": "Stella Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Stella_necklace_silver_1.png?v=1780915375",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Stella_necklace_gold_1.png?v=1780915357",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Stella_Necklace.jpg?v=1781011681",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Stella_Necklace2.jpg?v=1781011681"
+  ]
+ },
+ {
+  "id": 53655471096135,
+  "title": "Velora Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1604,11 +2085,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735819686215,
-  "title": "Isola Necklace",
+  "id": 53655471128903,
+  "title": "Velora Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_necklace_silver_1.png?v=1780915498",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_necklace_gold_1.png?v=1780915484",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_Necklace.jpg?v=1781011798",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Velora_Necklace2.jpg?v=1781011798"
+  ]
+ },
+ {
+  "id": 53655471030599,
+  "title": "Isola Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1619,11 +2115,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735774662983,
-  "title": "Cora Earrings",
+  "id": 53655471063367,
+  "title": "Isola Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Isola_necklace_silver_1.png?v=1780914778",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Isola_necklace_gold_1.png?v=1780914774",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Isola_Necklace.jpg?v=1781011902",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Isola_Necklace2.jpg?v=1781011902"
+  ]
+ },
+ {
+  "id": 53655356834119,
+  "title": "Cora Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1634,11 +2145,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735774531911,
-  "title": "Charlotte Earrings",
+  "id": 53655356866887,
+  "title": "Cora Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cora_earrings_silver_1.png?v=1780913334",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cora_earrings_gold_1.png?v=1780913327",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cora_Earrings.jpg?v=1781009730",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cora_Earrings1.jpg?v=1781009730"
+  ]
+ },
+ {
+  "id": 53655354933575,
+  "title": "Charlotte Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1649,11 +2175,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735774400839,
-  "title": "Stella Earrings",
+  "id": 53655354966343,
+  "title": "Charlotte Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Charlotte_earrings_silver_1.png?v=1780912327",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Charlotte_earrings_gold_1.png?v=1780912305",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Charlotte_Earrings.jpg?v=1781009775",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Charlotte_Earrings2.jpg?v=1781009775"
+  ]
+ },
+ {
+  "id": 53655353655623,
+  "title": "Stella Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1663,11 +2204,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735774236999,
-  "title": "Loxe Earrings",
+  "id": 53655353688391,
+  "title": "Stella Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Stella_earrings_silver_1.png?v=1780915315",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Stella_earrings_gold_1.png?v=1780915303",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Stella_Earrings.jpg?v=1781009807"
+  ]
+ },
+ {
+  "id": 53655353393479,
+  "title": "Loxe Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1678,11 +2233,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735774171463,
-  "title": "Mive Earrings",
+  "id": 53655353426247,
+  "title": "Loxe Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Loxe_earrings_silver_1.png?v=1780915015",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Loxe_earrings_gold_1.png?v=1780915005",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Loxe_Earrings.jpg?v=1781009848",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Loxe_Earrings2.jpg?v=1781009848"
+  ]
+ },
+ {
+  "id": 53655353131335,
+  "title": "Mive Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1694,11 +2264,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735773843783,
-  "title": "Kaso Earrings",
+  "id": 53655353164103,
+  "title": "Mive Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mive_earrings_silver_1.png?v=1780915062",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mive_earrings_gold_1.png?v=1780915048",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mive_Earrings1.jpg?v=1781009896",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mive_Earrings3.jpg?v=1781009896",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mive_Earrings2.jpg?v=1781009896"
+  ]
+ },
+ {
+  "id": 53655350116679,
+  "title": "Kaso Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1710,11 +2296,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844971139399,
+  "id": 53655350149447,
+  "title": "Kaso Earrings Silver",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kaso_earrings_silver_1.png?v=1780914834",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kaso_earrings_gold_1.png?v=1780914830",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kaso_Earrings.jpg?v=1781009951",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kaso_Earrings1.jpg?v=1781009952",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kaso_Earrings2.jpg?v=1781009951"
+  ]
+ },
+ {
+  "id": 54113027621191,
   "title": "Ava Silver Pink Bracelet",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": false,
   "images": [
@@ -1724,11 +2326,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10844970811719,
+  "id": 54113026146631,
   "title": "Ava Petite Silver Pink Bracelet",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1738,11 +2340,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10738335121735,
+  "id": 53668326080839,
   "title": "Sophia Chic Gold Bracelet",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": false,
   "available": true,
   "images": [
@@ -1755,11 +2357,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735820570951,
-  "title": "Sophia Ring",
+  "id": 53655473389895,
+  "title": "Sophia Ring Gold",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1768,11 +2370,24 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735820505415,
-  "title": "Riva Ring",
+  "id": 53655473422663,
+  "title": "Sophia Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sophia_ring_silver_1_a8396912-2c76-4fde-aa66-8ce30a4eea99.png?v=1780915265",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sophia_ring_gold_1_d106c29a-012a-45e5-865f-d0b3107026be.png?v=1780915253"
+  ]
+ },
+ {
+  "id": 53655473291591,
+  "title": "Riva Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1782,11 +2397,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735820407111,
-  "title": "Feya Ring",
+  "id": 53655473324359,
+  "title": "Riva Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Riva_ring_silver_1.png?v=1780915124",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Riva_ring_gold_1_0553e523-9797-494e-bb80-12d7438cfffa.png?v=1780915103",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Riva_Ring.jpg?v=1781007264"
+  ]
+ },
+ {
+  "id": 53655473094983,
+  "title": "Feya Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1797,11 +2426,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735820341575,
-  "title": "Vila Ring",
+  "id": 53655473127751,
+  "title": "Feya Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Feya_ring_silver_1.png?v=1780914672",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Feya_ring_gold_1.png?v=1780914667",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Feya_Ring2.jpg?v=1781011395",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Feya_Ring.jpg?v=1781011395"
+  ]
+ },
+ {
+  "id": 53655473029447,
+  "title": "Vila Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1812,11 +2456,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735820308807,
-  "title": "Dasty Ring",
+  "id": 53655473062215,
+  "title": "Vila Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vila_ring_silver_1.png?v=1780915553",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vila_ring_silver_2.png?v=1780915542",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vila_Ring.jpg?v=1781011567",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Vila_Ring2.jpg?v=1781011566"
+  ]
+ },
+ {
+  "id": 53655472931143,
+  "title": "Dasty Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1827,11 +2486,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694763282759,
+  "id": 53655472963911,
+  "title": "Dasty Ring Silver",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Dasty_ring_silver_1.png?v=1780914066",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Dasty_ring_gold_1.png?v=1780914056",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Dasty_Ring2.jpg?v=1781011633",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Dasty_Ring.jpg?v=1781011633"
+  ]
+ },
+ {
+  "id": 53490524946759,
   "title": "Diana Petite Dalmatian Gold",
   "type": "Watch",
-  "price_rub": 10058,
-  "old_rub": 20115,
+  "price_rub": 10100,
+  "old_rub": 20200,
   "sale": true,
   "available": true,
   "images": [
@@ -1847,11 +2521,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694762561863,
+  "id": 53490522882375,
   "title": "Diana Petite Dalmatian Silver",
   "type": "Watch",
-  "price_rub": 9382,
-  "old_rub": 18765,
+  "price_rub": 9400,
+  "old_rub": 18800,
   "sale": true,
   "available": false,
   "images": [
@@ -1867,11 +2541,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735820243271,
-  "title": "Eternity Ring",
+  "id": 53655472832839,
+  "title": "Eternity Ring Gold",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1882,11 +2556,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735819620679,
-  "title": "Amaris Necklace",
+  "id": 53655472865607,
+  "title": "Eternity Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eternity_ring_gold_1.png?v=1776780876",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eternity_ring_silver_1.png?v=1776780876",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eternity_Ring2.jpg?v=1776886970",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eternity_Ring3.jpg?v=1776886970"
+  ]
+ },
+ {
+  "id": 53655470932295,
+  "title": "Amaris Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1896,11 +2585,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735819522375,
-  "title": "Infinity Necklace",
+  "id": 53655470965063,
+  "title": "Amaris Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amaris_necklace_silver_1.png?v=1776780722",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amaris_necklace_gold_1.png?v=1776780722",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amaris_Necklace.jpg?v=1776886894"
+  ]
+ },
+ {
+  "id": 53655470801223,
+  "title": "Infinity Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -1910,11 +2613,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735774138695,
-  "title": "Estelle Earrings",
+  "id": 53655470833991,
+  "title": "Infinity Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_necklace_silver_1.png?v=1776780929",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_necklace_gold_1.png?v=1776780929",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_Necklace_ed4a87c0-3ea2-40ac-be32-53a270115ac8.jpg?v=1777543879"
+  ]
+ },
+ {
+  "id": 53655353065799,
+  "title": "Estelle Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1925,11 +2642,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735774040391,
-  "title": "Eternity Earrings",
+  "id": 53655353098567,
+  "title": "Estelle Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Estelle_earrings_silver_1.png?v=1776780810",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Estelle_earrings_gold_1.png?v=1776780810",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Estelle_Earrings1.jpg?v=1777543955",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Estelle_Earrings.jpg?v=1777543940"
+  ]
+ },
+ {
+  "id": 53655352967495,
+  "title": "Eternity Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1941,11 +2673,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735773942087,
-  "title": "Calis Earrings",
+  "id": 53655353000263,
+  "title": "Eternity Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eternity_earrings_silver_1.png?v=1776780839",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eternity_earrings_gold_1.png?v=1776780840",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eternity_Earrings1.jpg?v=1777544081",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eternity_Earrings2.jpg?v=1777544081",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eternity_Earrings3.jpg?v=1777544081"
+  ]
+ },
+ {
+  "id": 53655352869191,
+  "title": "Calis Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -1956,11 +2704,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735773876551,
-  "title": "Reni Earrings",
+  "id": 53655352901959,
+  "title": "Calis Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Calis_earrings_silver_1.png?v=1776780788",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Calis_earrings_gold_1.png?v=1776780788",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Calis_Earrings.jpg?v=1776887298",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/CalisEarrings2.jpg?v=1776887298"
+  ]
+ },
+ {
+  "id": 53655350182215,
+  "title": "Reni Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1971,11 +2734,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735773778247,
-  "title": "Teya Earrings",
+  "id": 53655350214983,
+  "title": "Reni Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Reni_earrings_silver_1.png?v=1776781143",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Reni_earrings_gold_1.png?v=1776781143",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Reni_Earrings.jpg?v=1776887408",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Reni_Earrings2.jpg?v=1776887408"
+  ]
+ },
+ {
+  "id": 53655348216135,
+  "title": "Teya Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -1987,11 +2765,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735773745479,
-  "title": "Infinity Earrings",
+  "id": 53655348248903,
+  "title": "Teya Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Teya_earrings_silver_1.png?v=1776781166",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Teya_earrings_gold_1.png?v=1776781166",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Teya_Earrings2.jpg?v=1776887334",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Teya_Earrings.jpg?v=1776887334",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Teya_Earrings3.jpg?v=1776887334"
+  ]
+ },
+ {
+  "id": 53655348150599,
+  "title": "Infinity Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2001,11 +2795,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735773647175,
-  "title": "Nemi Earrings",
+  "id": 53655348183367,
+  "title": "Infinity Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_earring_silver_1.png?v=1776780924",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_earring_gold_1.png?v=1776780924",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_Earrings.jpg?v=1777544193"
+  ]
+ },
+ {
+  "id": 53655345725767,
+  "title": "Nemi Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -2016,11 +2824,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735773286727,
-  "title": "Arlena Earrings",
+  "id": 53655345758535,
+  "title": "Nemi Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nemi_earrings_silver_1_63d5391e-59db-47f5-8241-3d95a68f2665.png?v=1784286184",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nemi_earrings_gold_1.png?v=1776781038",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nemi_Earrings.jpg?v=1777544287",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nemi_Earrings1.jpg?v=1777544287"
+  ]
+ },
+ {
+  "id": 53655345234247,
+  "title": "Arlena Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2031,11 +2854,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735769649479,
-  "title": "Amaris Bracelet",
+  "id": 53655345267015,
+  "title": "Arlena Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Arlena_earrings_silver_1_9ae4cdd9-fd85-42bb-8a58-a63c2702e6de.png?v=1776780766",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Arlena_earrings_gold_1_0951f7eb-1d8a-4871-9641-8702f3683662.png?v=1776780765",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Arlena_Earrings1.jpg?v=1777544341",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Arlena_Earrings2.jpg?v=1777544341"
+  ]
+ },
+ {
+  "id": 53655331045703,
+  "title": "Amaris Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2045,11 +2883,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10735769092423,
-  "title": "Infinity Bracelet",
+  "id": 53655331078471,
+  "title": "Amaris Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amaris_bracelet_silver_1.png?v=1776780694",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amaris_bracelet_gold_1.png?v=1776780694",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amaris_Bracelet.jpg?v=1776887190"
+  ]
+ },
+ {
+  "id": 53655328063815,
+  "title": "Infinity Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2060,11 +2912,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10602378363207,
+  "id": 53655328096583,
+  "title": "Infinity Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_bracelet_silver_1.png?v=1776780919",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_bracelet_gold_1.png?v=1776780919",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_Bracelet.jpg?v=1777544409",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Infinity_Bracelet2.jpg?v=1777544409"
+  ]
+ },
+ {
+  "id": 53129557934407,
   "title": "Love Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -2074,21 +2941,41 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10485488058695,
-  "title": "Return Store Credit Gift Card",
+  "id": 52771750904135,
+  "title": "Return Store Credit Gift Card € 0,01",
   "type": "",
-  "price_rub": 1,
+  "price_rub": 100,
   "old_rub": null,
   "sale": false,
   "available": true,
   "images": []
  },
  {
-  "id": 10738593661255,
+  "id": 53778964218183,
+  "title": "Return Store Credit Gift Card 83.93",
+  "type": "",
+  "price_rub": 100,
+  "old_rub": null,
+  "sale": false,
+  "available": false,
+  "images": []
+ },
+ {
+  "id": 54104602050887,
+  "title": "Return Store Credit Gift Card 39.92",
+  "type": "",
+  "price_rub": 5400,
+  "old_rub": null,
+  "sale": false,
+  "available": false,
+  "images": []
+ },
+ {
+  "id": 53669430985031,
   "title": "Victoria Silver Black",
   "type": "Watch",
-  "price_rub": 7965,
-  "old_rub": 13365,
+  "price_rub": 8000,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -2101,11 +2988,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10738593399111,
+  "id": 53669430559047,
   "title": "Victoria Silver White",
   "type": "Watch",
-  "price_rub": 7965,
-  "old_rub": 13365,
+  "price_rub": 8000,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -2118,11 +3005,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10738593104199,
+  "id": 53669429936455,
   "title": "Victoria Black Gold Silver",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -2137,11 +3024,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10738592842055,
+  "id": 53669429674311,
   "title": "Victoria Gold Silver",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -2157,11 +3044,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10738592678215,
+  "id": 53669429248327,
   "title": "Victoria Gold Burgundy",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2174,11 +3061,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10738592252231,
+  "id": 53669428494663,
   "title": "Victoria Gold Brown",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2191,11 +3078,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10738591793479,
+  "id": 53669425316167,
   "title": "Victoria Gold Black",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2207,11 +3094,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10738589663559,
+  "id": 53669422563655,
   "title": "Victoria Gold White",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2227,11 +3114,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694748406087,
-  "title": "Violet Petite Bracelet",
+  "id": 53490482676039,
+  "title": "Violet Petite Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -2245,11 +3132,29 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694747554119,
+  "id": 53490482708807,
+  "title": "Violet Petite Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_silver_1_65e2e9f9-2f38-45d0-a40b-0b13dad986bd.png?v=1773742553",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_petite_gold_1.png?v=1773738766",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC04590.jpg?v=1773740791",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBAVAPGW2.jpg?v=1773742553",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC04574.jpg?v=1773742553",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_gold_ce3a1eb6-fb1d-4faf-afdf-c895afa991fd.png?v=1785272540",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_silver_c30b84e9-f8fe-4ac9-9ba4-679f04ea918c.png?v=1785272540"
+  ]
+ },
+ {
+  "id": 53490479694151,
   "title": "Ava Petite Gold Burgundy Bracelet",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -2259,11 +3164,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694747160903,
+  "id": 53490478874951,
   "title": "Ava Petite Gold Brown Bracelet",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -2273,11 +3178,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694746767687,
+  "id": 53490478055751,
   "title": "Ava Petite Gold Black Bracelet",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -2288,11 +3193,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694746341703,
+  "id": 53490477105479,
   "title": "Ava Petite Gold White Bracelet",
   "type": "Jewelry",
-  "price_rub": 3159,
-  "old_rub": 5265,
+  "price_rub": 3200,
+  "old_rub": 5300,
   "sale": true,
   "available": false,
   "images": [
@@ -2303,11 +3208,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694744441159,
+  "id": 53490472878407,
   "title": "Ava Petite Silver White Bracelet",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": false,
   "images": [
@@ -2317,11 +3222,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694761775431,
+  "id": 53490519474503,
   "title": "Diana Petite Gold Chic",
   "type": "Watch",
-  "price_rub": 9382,
-  "old_rub": 18765,
+  "price_rub": 9400,
+  "old_rub": 18800,
   "sale": true,
   "available": true,
   "images": [
@@ -2337,11 +3242,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694761218375,
+  "id": 53490518720839,
   "title": "Diana Petite Gold Silver",
   "type": "Watch",
-  "price_rub": 9639,
-  "old_rub": 16065,
+  "price_rub": 9700,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -2357,11 +3262,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694760726855,
+  "id": 53490517016903,
   "title": "Diana Petite Gold Burgundy",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2374,11 +3279,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694760300871,
+  "id": 53490516492615,
   "title": "Diana Petite Gold Brown",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2394,11 +3299,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694759678279,
+  "id": 53490515542343,
   "title": "Diana Petite Gold Black",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2413,13 +3318,13 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694759252295,
+  "id": 53490514952519,
   "title": "Diana Petite Gold White",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
-  "available": true,
+  "available": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diana_petite_gold_white_1.png?v=1773393995",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diana_petite_gold_white_2.png?v=1773393995",
@@ -2433,11 +3338,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694758662471,
+  "id": 53490513707335,
   "title": "Diana Petite Silver Black",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -2450,11 +3355,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10694756237639,
+  "id": 53490507514183,
   "title": "Diana Petite Silver White",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -2468,11 +3373,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10650359824711,
+  "id": 53331578913095,
   "title": "Diana Dalmatian Silver",
   "type": "Watch",
-  "price_rub": 9382,
-  "old_rub": 18765,
+  "price_rub": 9400,
+  "old_rub": 18800,
   "sale": true,
   "available": false,
   "images": [
@@ -2489,11 +3394,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10650350420295,
+  "id": 53331560890695,
   "title": "Diana Dalmatian Gold",
   "type": "Watch",
-  "price_rub": 10058,
-  "old_rub": 20115,
+  "price_rub": 10100,
+  "old_rub": 20200,
   "sale": true,
   "available": true,
   "images": [
@@ -2510,11 +3415,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564346642759,
-  "title": "Selin Bracelet",
+  "id": 53012799652167,
+  "title": "Selin Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2525,11 +3430,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564346413383,
-  "title": "Orla Bracelet",
+  "id": 53012799684935,
+  "title": "Selin Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Selin_bracelet_silver_1.png?v=1771249443",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Selin_bracelet_gold_1.png?v=1771249444",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Selin_Brac_1.jpg?v=1772229967",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Selin_Brac_2.jpg?v=1772229968"
+  ]
+ },
+ {
+  "id": 53012798767431,
+  "title": "Orla Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -2540,11 +3460,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564346151239,
-  "title": "Ciel Bracelet",
+  "id": 53012798800199,
+  "title": "Orla Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_bracelet_silver_1.png?v=1772230019",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_bracelet_gold_1.png?v=1771249473",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_Brac_1.jpg?v=1772230019",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_Brac_2.jpg?v=1772230011"
+  ]
+ },
+ {
+  "id": 53012796932423,
+  "title": "Ciel Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2555,11 +3490,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564345954631,
-  "title": "Lirena Bracelet",
+  "id": 53012796965191,
+  "title": "Ciel Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_bracelet_silver_1.png?v=1771249512",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_bracelet_gold_1.png?v=1771249512",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_Brac_1.jpg?v=1772230064",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_Brac_2.jpg?v=1772230063"
+  ]
+ },
+ {
+  "id": 53012796342599,
+  "title": "Lirena Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -2571,11 +3521,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564345758023,
-  "title": "Nara Bracelet",
+  "id": 53012796375367,
+  "title": "Lirena Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_bracelet_silver_1.png?v=1772230126",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_bracelet_gold_1.png?v=1771249571",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_Brac_1.jpg?v=1772230126",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_Brac_2.jpg?v=1772230119",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_Brac_3.jpg?v=1772230119"
+  ]
+ },
+ {
+  "id": 53012795425095,
+  "title": "Nara Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -2587,11 +3553,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564334027079,
-  "title": "Orla Earrings",
+  "id": 53012795457863,
+  "title": "Nara Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nara_bracelet_silver_1.png?v=1772230195",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nara_bracelet_gold_1.png?v=1771249592",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nara_Brac_1.jpg?v=1772230195",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nara_Brac_2.jpg?v=1772230169",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nara_Brac_3.jpg?v=1772230187"
+  ]
+ },
+ {
+  "id": 53012751417671,
+  "title": "Orla Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2601,11 +3583,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10615312286023,
-  "title": "Alaia Necklace",
+  "id": 53012751450439,
+  "title": "Orla Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_earrings_silver_1.png?v=1771249627",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_earrings_gold_1.png?v=1771249627",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/OrlaEar.jpg?v=1772230453"
+  ]
+ },
+ {
+  "id": 53184370508103,
+  "title": "Alaia Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -2617,11 +3613,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10615262970183,
-  "title": "Orla Necklace",
+  "id": 53184370540871,
+  "title": "Alaia Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aiala_necklace_silver_1_a6329541-1282-4f47-bf22-d16039bca773.png?v=1769132534",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aiala_necklace_gold_1_f17d0007-4c45-494f-82a3-02576b15871b.png?v=1769132534",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Neck.jpg?v=1772229544",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Neck_1.jpg?v=1772229544",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Neck_2.jpg?v=1772229544"
+  ]
+ },
+ {
+  "id": 53184218104135,
+  "title": "Orla Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -2633,11 +3645,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564387864903,
-  "title": "Sena Ring",
+  "id": 53184218136903,
+  "title": "Orla Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_necklace_silver_1_a5163f5e-4f3f-4a8f-86f0-0c559d3f56ee.png?v=1769132546",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_necklace_gold_1_e1a6e7dc-893c-4177-ba77-66bab1b04fe9.png?v=1769132546",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_Neck_1.jpg?v=1772229624",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Neck_2_7f7f29c1-9e6c-4382-9202-39dcf04cbc7c.jpg?v=1772229624",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Orla_Neck_2.jpg?v=1772229615"
+  ]
+ },
+ {
+  "id": 53013009858887,
+  "title": "Sena Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2648,11 +3676,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564346872135,
-  "title": "Alaia Bracelet",
+  "id": 53013009891655,
+  "title": "Sena Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sena_ring_silver_1_4cc7d250-5970-4db8-bc2d-27009253c17d.png?v=1769132519",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sena_ring_gold_1_246ad0d1-02d7-40d3-952c-01a793dbf9e6.png?v=1769132519",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sena_Ring.jpg?v=1777544738",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Sena_Ring1.jpg?v=1777544738"
+  ]
+ },
+ {
+  "id": 53012800405831,
+  "title": "Alaia Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2663,11 +3706,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564335206727,
-  "title": "Alaia Earrings",
+  "id": 53012800438599,
+  "title": "Alaia Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_bracelet_silver_1_4d6d745c-99f0-4600-a9bf-f7e6d06421d7.png?v=1769132566",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_bracelet_gold_1_9a3152c4-dece-4d49-b928-e26a31d1f353.png?v=1769132566",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Bracelet.jpg?v=1777666024",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Bracelet2.jpg?v=1777666024"
+  ]
+ },
+ {
+  "id": 53012755054919,
+  "title": "Alaia Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -2679,11 +3737,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564333732167,
-  "title": "Ciel Earrings",
+  "id": 53012755087687,
+  "title": "Alaia Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_earrings_silver_1_7e944ecb-cffb-4ff4-a3c8-dea3ebb6bdc4.png?v=1769132583",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_earrings_gold_1_268f854a-2f28-42bd-abb3-ca520b6438a4.png?v=1769132583",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Ear_1.jpg?v=1772230360",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Ear_3.jpg?v=1772230380",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Alaia_Ear_2.jpg?v=1772230380"
+  ]
+ },
+ {
+  "id": 53012749582663,
+  "title": "Ciel Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -2695,11 +3769,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564407951687,
+  "id": 53012749615431,
+  "title": "Ciel Earrings Silver",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_earrings_silver_1.png?v=1769132595",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_earrings_gold_1.png?v=1769132595",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_Ear_1.jpg?v=1772230505",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_Ear_2.jpg?v=1772230505",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciel_Ear_3.jpg?v=1772230505"
+  ]
+ },
+ {
+  "id": 53013127037255,
   "title": "Sophie Black Gold Silver",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -2714,11 +3804,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564407689543,
+  "id": 53013125857607,
   "title": "Sophie Gold Silver",
   "type": "Watch",
-  "price_rub": 6426,
-  "old_rub": 16065,
+  "price_rub": 6500,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -2732,11 +3822,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564407066951,
+  "id": 53013124055367,
   "title": "Sophie Gold Burgundy",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2752,11 +3842,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564406903111,
+  "id": 53013123498311,
   "title": "Sophie Gold Brown",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2771,11 +3861,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564406640967,
+  "id": 53013122384199,
   "title": "Sophie Gold Black",
   "type": "Watch",
-  "price_rub": 6426,
-  "old_rub": 14715,
+  "price_rub": 6500,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2787,11 +3877,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564406509895,
+  "id": 53013120876871,
   "title": "Sophie Gold White",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2807,11 +3897,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564406313287,
+  "id": 53013120024903,
   "title": "Sophie Silver Black",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 13365,
+  "price_rub": 7400,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -2825,11 +3915,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564405526855,
+  "id": 53013116092743,
   "title": "Sophie Silver White",
   "type": "Watch",
-  "price_rub": 6615,
-  "old_rub": 13365,
+  "price_rub": 6700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -2841,11 +3931,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564405297479,
+  "id": 53013114585415,
   "title": "Olivia Petite Black Gold Silver",
   "type": "Watch",
-  "price_rub": 9666,
-  "old_rub": 16065,
+  "price_rub": 9700,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -2857,11 +3947,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564404937031,
+  "id": 53013113078087,
   "title": "Olivia Petite Gold Silver",
   "type": "Watch",
-  "price_rub": 9639,
-  "old_rub": 16065,
+  "price_rub": 9700,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -2876,11 +3966,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564404740423,
+  "id": 53013112586567,
   "title": "Olivia Petite Gold Burgundy",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2894,11 +3984,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564404642119,
+  "id": 53013111800135,
   "title": "Olivia Petite Gold Brown",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2912,11 +4002,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564404379975,
+  "id": 53013110522183,
   "title": "Olivia Petite Gold Black",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2930,11 +4020,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564404117831,
+  "id": 53013109735751,
   "title": "Olivia Petite Gold White",
   "type": "Watch",
-  "price_rub": 9639,
-  "old_rub": 14715,
+  "price_rub": 9700,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -2950,11 +4040,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564403921223,
+  "id": 53013108425031,
   "title": "Olivia Petite Silver Black",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -2967,11 +4057,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564402676039,
+  "id": 53013101543751,
   "title": "Olivia Petite Silver",
   "type": "Watch",
-  "price_rub": 9315,
-  "old_rub": 13365,
+  "price_rub": 9400,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -2986,11 +4076,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564332945735,
-  "title": "Norela Earrings",
+  "id": 53012741194055,
+  "title": "Norela Earrings Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -3002,11 +4092,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411087069511,
-  "title": "Maggy Ring",
+  "id": 53012741226823,
+  "title": "Norela Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Norela_earrings_silver.png?v=1767360354",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Norela_earrings_gold.png?v=1767360354",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Norela_Ear_1.jpg?v=1772230638",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Norela_Ear_2.jpg?v=1772230637",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Norela_Ear_3.jpg?v=1772230637"
+  ]
+ },
+ {
+  "id": 52489753329991,
+  "title": "Maggy Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3017,11 +4123,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564387569991,
-  "title": "Lirena Ring",
+  "id": 52489753362759,
+  "title": "Maggy Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Maggy_ring_silver.png?v=1767090494",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Maggy_ring_gold.png?v=1767090494",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Maggy_Ring_1.jpg?v=1772230902",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Maggy_Ring_2.jpg?v=1772230903"
+  ]
+ },
+ {
+  "id": 53013007565127,
+  "title": "Lirena Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3033,11 +4154,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564386881863,
-  "title": "Nara Ring",
+  "id": 53013007597895,
+  "title": "Lirena Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_ring_silver.png?v=1767086368",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_ring_gold.png?v=1767086368",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_Ring_2.jpg?v=1772229802",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_Ring_1.jpg?v=1772229802",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_Ring_3.jpg?v=1772229802"
+  ]
+ },
+ {
+  "id": 53013002944839,
+  "title": "Nara Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3048,11 +4185,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564345299271,
-  "title": "Avina Bracelet",
+  "id": 53013002977607,
+  "title": "Nara Ring Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nara_ring_silver.png?v=1767086409",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nara_ring_gold.png?v=1767086409",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nara_Ring.jpg?v=1772229875",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lirena_Ring_1_fe27fbbb-33c3-4faa-a579-afcd68247e14.jpg?v=1772229875"
+  ]
+ },
+ {
+  "id": 53012793393479,
+  "title": "Avina Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3064,11 +4216,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564333011271,
-  "title": "Amina Earrings",
+  "id": 53012793426247,
+  "title": "Avina Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Avina_bracelet_silver.png?v=1772230290",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Avina_bracelet_gold.png?v=1767086495",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Avina_Brac_4.jpg?v=1772230290",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/AvinaBrac_2.jpg?v=1772230290",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Avina_Brac_1.jpg?v=1772230290"
+  ]
+ },
+ {
+  "id": 53012741521735,
+  "title": "Amina Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3080,11 +4248,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10564330160455,
-  "title": "Nova Earrings",
+  "id": 53012741554503,
+  "title": "Amina Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amina_earrings_silver.png?v=1767086540",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amina_earrings_gold.png?v=1767086539",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amina_Ear_1.jpg?v=1772230572",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amina_Ear_2.jpg?v=1772230571",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Amina_Ear_3.jpg?v=1772230572"
+  ]
+ },
+ {
+  "id": 53012730904903,
+  "title": "Nova Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -3095,11 +4279,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411092902215,
+  "id": 53012730937671,
+  "title": "Nova Earrings Silver",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nova_earrings_silver.png?v=1767086682",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nova_earrings_gold.png?v=1767086681",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nova_Ear_1.jpg?v=1772230724",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nova_Ear_2.jpg?v=1772230724"
+  ]
+ },
+ {
+  "id": 52489774104903,
   "title": "Diana Gold Chic",
   "type": "Watch",
-  "price_rub": 9382,
-  "old_rub": 18765,
+  "price_rub": 9400,
+  "old_rub": 18800,
   "sale": true,
   "available": true,
   "images": [
@@ -3115,11 +4314,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411087659335,
-  "title": "Maggy Bracelet",
+  "id": 52489757753671,
+  "title": "Maggy Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3130,11 +4329,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10434201256263,
+  "id": 52489757786439,
+  "title": "Maggy Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Maggy_bracelet_silver_1.png?v=1764582977",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Maggy_bracelet_gold_1.png?v=1764582291",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Maggy_bracelet_gold_2_02f4d913-cab0-4cf9-8f00-4150a9ecc659.png?v=1764582977",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Maggy_bracelet_silver_2.png?v=1764582977"
+  ]
+ },
+ {
+  "id": 52587395776839,
   "title": "Jade Gold Burgundy Bracelet",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3143,11 +4357,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10378892640583,
+  "id": 52390544113991,
   "title": "Eternity Gold Bracelet",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3159,11 +4373,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411149394247,
-  "title": "Hillary Earrings",
+  "id": 52489854452039,
+  "title": "Hillary Earrings Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3174,11 +4388,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411146838343,
-  "title": "Ciara Earrings",
+  "id": 52489854484807,
+  "title": "Hillary Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_earrings_silver_12725cd0-851c-46a4-a0a4-f0b0babb8ba2.png?v=1784286152",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_earrings_gold.png?v=1761559400",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_Earrings.jpg?v=1777544787",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_Earrings1.jpg?v=1777544787"
+  ]
+ },
+ {
+  "id": 52489849733447,
+  "title": "Ciara Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3189,11 +4418,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411089264967,
-  "title": "Mia Necklace",
+  "id": 52489849766215,
+  "title": "Ciara Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_earrings_silver_90e1970c-0456-4067-a4a3-d5553251eb49.png?v=1784286120",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_earrings_gold.png?v=1761559424",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_Earrings.jpg?v=1777544827",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_Earrings1.jpg?v=1777544827"
+  ]
+ },
+ {
+  "id": 52489765388615,
+  "title": "Mia Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3206,11 +4450,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411089166663,
-  "title": "Hazel Necklace",
+  "id": 52489765421383,
+  "title": "Mia Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mia_necklace_silver_6271817a-85f1-4ea9-8eb4-fb372a7ef4b2.png?v=1784286072",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mia_necklace_gold_3819deb3-39d7-44cc-b915-d075e424b447.png?v=1784286069",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mia_necklace_1.jpg?v=1761946288",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mia_necklace_2.jpg?v=1761946288",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mia_necklace_4.jpg?v=1761946306",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mia_necklace_3.jpg?v=1761946306"
+  ]
+ },
+ {
+  "id": 52489764176199,
+  "title": "Hazel Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3223,11 +4484,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411089101127,
-  "title": "Elise Necklace",
+  "id": 52489764208967,
+  "title": "Hazel Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_necklace_silver_9e274914-4b42-4156-8993-2b04c4a27bc6.png?v=1784285976",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_necklace_gold_a3fa0a32-0bc6-4888-89da-5a1319b4f3a9.png?v=1784285970",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_necklace_1.jpg?v=1761946337",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_necklace_3.jpg?v=1761946357",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_necklace_4.jpg?v=1761946357",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_necklace_2.jpg?v=1761946357"
+  ]
+ },
+ {
+  "id": 52489764012359,
+  "title": "Elise Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3241,11 +4519,29 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411088937287,
-  "title": "Aria Necklace",
+  "id": 52489764045127,
+  "title": "Elise Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_necklace_silver_d079f670-0738-4034-9a3d-32d8d1fa6c2e.png?v=1784285928",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_necklace_gold_dff52c27-641e-4650-9efb-374bbc279d22.png?v=1784285925",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_necklace_1.jpg?v=1761946396",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_necklace_2.jpg?v=1761946395",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_necklace_3.jpg?v=1761946396",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_necklace_4.jpg?v=1761946395",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_necklace_5.jpg?v=1761946396"
+  ]
+ },
+ {
+  "id": 52489763029319,
+  "title": "Aria Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3258,11 +4554,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411088838983,
-  "title": "Nora Necklace",
+  "id": 52489763062087,
+  "title": "Aria Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_necklace_silver_1e0ce0c9-263d-4c64-8ecf-5edd14d60c89.png?v=1784284201",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_necklace_gold.png?v=1761035587",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_necklace_1.jpg?v=1761946433",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_necklace_4.jpg?v=1761946440",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_necklace_2.jpg?v=1761946440",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_necklace_3.jpg?v=1761946440"
+  ]
+ },
+ {
+  "id": 52489762767175,
+  "title": "Nora Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3275,11 +4588,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411088511303,
-  "title": "Nora Bracelet",
+  "id": 52489762799943,
+  "title": "Nora Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_necklace_silver_7e71f644-0c50-48a4-85df-1e9375757ea2.png?v=1784284282",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_necklace_gold.png?v=1761036184",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_necklace_1.jpg?v=1761946475",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_necklace_2.jpg?v=1761946475",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_necklace_4.jpg?v=1761946493",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_necklace_3.jpg?v=1761946493"
+  ]
+ },
+ {
+  "id": 52489760637255,
+  "title": "Nora Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -3291,11 +4621,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411088347463,
-  "title": "Aria Bracelet",
+  "id": 52489760670023,
+  "title": "Nora Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_bracelet_silver_71f70fdd-29f2-4e4c-80e5-36cfc7da9078.png?v=1784284309",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_bracelet_gold.png?v=1761036137",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_bracelet_1.jpg?v=1761946525",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_bracelet_2.jpg?v=1761946525",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nora_bracelet_3.jpg?v=1761946526"
+  ]
+ },
+ {
+  "id": 52489759424839,
+  "title": "Aria Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3307,11 +4653,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411088249159,
-  "title": "Elise Bracelet",
+  "id": 52489759457607,
+  "title": "Aria Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_bracelet_silver_2cb22fd4-1549-4310-b541-7c8dc0407fc1.png?v=1784284338",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_bracelet_gold.png?v=1761035547",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_bracelet_gold_2.jpg?v=1761946587",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_bracelet_gold_1.jpg?v=1761946587",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aria_bracelet_silver_1.jpg?v=1761946587"
+  ]
+ },
+ {
+  "id": 52489759260999,
+  "title": "Elise Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3322,11 +4684,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411088052551,
-  "title": "Hazel Bracelet",
+  "id": 52489759293767,
+  "title": "Elise Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_bracelet_silver_f5070ab4-49c2-4fcf-a574-58d32b7932a8.png?v=1784284386",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_bracelet_gold_6cffb4ad-04c8-4b3a-8aa5-ef5c6f4a3d14.png?v=1784284397",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_bracelet_gold_1.jpg?v=1761946625",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elise_bracelet_gold_2.jpg?v=1761946625"
+  ]
+ },
+ {
+  "id": 52489758802247,
+  "title": "Hazel Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3337,11 +4714,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411087888711,
-  "title": "Hillary Bracelet",
+  "id": 52489758835015,
+  "title": "Hazel Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_bracelet_silver_a275dcde-e062-41d1-8e54-55442caf9ec1.png?v=1784284457",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_bracelet_gold_a07d5edd-dd20-4267-afce-eac303d6fb5f.png?v=1784284454",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_bracelet_gold_1.jpg?v=1761946669",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hazel_bracelet_gold_2.jpg?v=1761946669"
+  ]
+ },
+ {
+  "id": 52489758277959,
+  "title": "Hillary Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3355,11 +4747,29 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411087790407,
-  "title": "Ciara Bracelet",
+  "id": 52489758310727,
+  "title": "Hillary Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_bracelet_silver.png?v=1761946785",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_bracelet_gold.png?v=1761946785",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_bracelet_1.jpg?v=1761946785",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_bracelet_5.jpg?v=1761946785",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_bracelet_4.jpg?v=1761946785",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_bracelet_2.jpg?v=1761946785",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hillary_bracelet_3.jpg?v=1761946785"
+  ]
+ },
+ {
+  "id": 52489757884743,
+  "title": "Ciara Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3374,11 +4784,30 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411087593799,
-  "title": "Bridgit Bracelet",
+  "id": 52489757917511,
+  "title": "Ciara Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_bracelet_silver_d52c8cc3-2de0-4fcc-9aa8-8afa87a8f680.png?v=1784284505",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_bracelet_gold_67cd9d46-a1d5-4f8c-8586-c6c6f1f1be5f.png?v=1784284497",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_bracelet_1.jpg?v=1761946838",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_bracelet_4.jpg?v=1762112687",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_bracelet-5.jpg?v=1762112687",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_bracelet_3.jpg?v=1762112687",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_bracelet_2.jpg?v=1762112687",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_bracelet-6.jpg?v=1762112648"
+  ]
+ },
+ {
+  "id": 52489757360455,
+  "title": "Bridgit Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3390,11 +4819,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411087233351,
-  "title": "Hillary Ring",
+  "id": 52489757393223,
+  "title": "Bridgit Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Bridgit_bracelet_silver_809bff7e-1025-42ea-b26f-b74fb2dd8857.png?v=1784284551",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Bridgit_bracelet_gold_f5c1d344-92be-43ae-ab86-6c033baaa32e.png?v=1784284563",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Bridgit_bracelet_gold_1.jpg?v=1761946895",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Bridgit_bracelet_gold_2.jpg?v=1761946895",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Bridgit_bracelet_silver_1.jpg?v=1761946895"
+  ]
+ },
+ {
+  "id": 52489754018119,
+  "title": "Hillary Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3407,11 +4852,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411087135047,
-  "title": "Ciara Ring",
+  "id": 52489754050887,
+  "title": "Hillary Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hilary_ring_silver_1.png?v=1784284709",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hilary_ring_gold_1.png?v=1784284705",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hilary_ring_4.jpg?v=1761946949",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hilary_ring_3.jpg?v=1761946949",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hilary_ring_1.jpg?v=1761946949",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hilary_ring_2.jpg?v=1761946949"
+  ]
+ },
+ {
+  "id": 52489753657671,
+  "title": "Ciara Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3423,11 +4885,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411086643527,
-  "title": "Eliza Ring",
+  "id": 52489753690439,
+  "title": "Ciara Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_ring_silver_96af2780-70b1-4fbf-a94b-0f951eda7cfe.png?v=1784284763",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_ring_gold_3714a041-9a9e-4e12-a115-249c460ac48f.png?v=1784284759",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_ring_gold_1.jpg?v=1761947000",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_ring_silver.jpg?v=1761947017",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ciara_ring_gold_2.jpg?v=1761947017"
+  ]
+ },
+ {
+  "id": 52489750643015,
+  "title": "Eliza Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3439,11 +4917,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411086479687,
-  "title": "Aurora Ring",
+  "id": 52489750675783,
+  "title": "Eliza Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eliza_ring_silver_b175dee9-88c7-4c0d-a034-fe09d9975a9e.png?v=1761947057",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eliza_ring_gold.png?v=1761035914",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eliza_ring_1.jpg?v=1761947037",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eliza_ring_3.jpg?v=1761947057",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Eliza_ring_2.jpg?v=1761947057"
+  ]
+ },
+ {
+  "id": 52489749135687,
+  "title": "Aurora Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3455,11 +4949,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411086250311,
-  "title": "Lea Ring",
+  "id": 52489749168455,
+  "title": "Aurora Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aurora_ring_silver_47e03063-998e-4333-90aa-0dfd47d7343f.png?v=1784284875",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aurora_ring_gold.png?v=1761035627",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aurora_ring_3.jpg?v=1761947089",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aurora_ring_1.jpg?v=1761947089",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Aurora_ring_2.jpg?v=1761947089"
+  ]
+ },
+ {
+  "id": 52489746350407,
+  "title": "Lea Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3473,11 +4983,29 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411086053703,
-  "title": "Ameli Ring",
+  "id": 52489746383175,
+  "title": "Lea Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lea_ring_silver_26be8480-a578-4f9c-beb4-95aebe3b427e.png?v=1761947141",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lea_ring_gold.png?v=1761036030",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lea_ring_3.jpg?v=1761947141",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lea_ring_1.jpg?v=1761947141",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lea_ring_2.jpg?v=1761947141",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lea_ring_4.jpg?v=1761947141",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Lea_ring_5.jpg?v=1761947141"
+  ]
+ },
+ {
+  "id": 52489744646471,
+  "title": "Ameli Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3491,11 +5019,29 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411081728327,
-  "title": "Luna Ring",
+  "id": 52489744679239,
+  "title": "Ameli Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ameli_ring_silver_4f43143a-94bd-4c60-befb-931c3ab4195e.png?v=1784284907",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ameli_ring_gold.png?v=1761035524",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ameli_ring_gold_3.jpg?v=1761947200",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ameli_ring_silver_1.jpg?v=1761947200",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ameli_ring_gold_1.jpg?v=1761947200",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ameli_ring_gold_4.jpg?v=1761947200",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ameli_ring_silver_2.jpg?v=1761947159"
+  ]
+ },
+ {
+  "id": 52489735209287,
+  "title": "Luna Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -3509,11 +5055,29 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411092738375,
+  "id": 52489735242055,
+  "title": "Luna Ring Silver",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Luna_ring_silver_73bbfe08-b77d-4c9f-86e0-fc79cab97c32.png?v=1784284949",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Luna_ring_gold_3cd9cdec-3c1f-4244-9771-16952648670b.png?v=1784284941",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Luna_ring_4.jpg?v=1761947237",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Luna_ring_5.jpg?v=1761947237",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Luna_ring_1.jpg?v=1761947237",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Luna_ring_2.jpg?v=1761947237",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Luna_ring_3.jpg?v=1761947237"
+  ]
+ },
+ {
+  "id": 52489773842759,
   "title": "Diana Gold Burgundy",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3529,11 +5093,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411092377927,
+  "id": 52489772794183,
   "title": "Diana Gold Brown",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3547,11 +5111,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411092279623,
+  "id": 52489772630343,
   "title": "Diana Gold Black",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3564,11 +5128,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411092148551,
+  "id": 52489772138823,
   "title": "Diana Gold White",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3583,11 +5147,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411091984711,
+  "id": 52489771712839,
   "title": "Diana Gold Silver",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -3603,11 +5167,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411091919175,
+  "id": 52489771352391,
   "title": "Diana Silver Black",
   "type": "Watch",
-  "price_rub": 7965,
-  "old_rub": 13365,
+  "price_rub": 8000,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -3621,11 +5185,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10411090575687,
+  "id": 52489768698183,
   "title": "Diana Silver White",
   "type": "Watch",
-  "price_rub": 7965,
-  "old_rub": 13365,
+  "price_rub": 8000,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -3640,11 +5204,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345904963911,
+  "id": 52290018017607,
   "title": "Julia Gold Burgundy",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": false,
   "images": [
@@ -3657,11 +5221,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345904898375,
+  "id": 52290017984839,
   "title": "Olivia Gold Burgundy",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3675,11 +5239,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345904832839,
+  "id": 52290017952071,
   "title": "Macy Gold Burgundy",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3693,11 +5257,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10365956260167,
+  "id": 52347870085447,
   "title": "Ava Gold Burgundy",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -3710,11 +5274,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345906864455,
+  "id": 52290019230023,
   "title": "Isabell Silver Black",
   "type": "Watch",
-  "price_rub": 5265,
-  "old_rub": 13365,
+  "price_rub": 5300,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -3725,11 +5289,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345906667847,
+  "id": 52290019197255,
   "title": "Ruby Petite Gold Burgundy",
   "type": "Watch",
-  "price_rub": 4414,
-  "old_rub": 14715,
+  "price_rub": 4500,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3741,11 +5305,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905979719,
+  "id": 52290018902343,
   "title": "Isabell Petite Black Gold Silver",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -3758,11 +5322,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905914183,
+  "id": 52290018869575,
   "title": "Isabell Petite Gold Silver",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -3776,11 +5340,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905848647,
+  "id": 52290018804039,
   "title": "Isabell Petite Gold Burgundy",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3794,11 +5358,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905750343,
+  "id": 52290018738503,
   "title": "Isabell Petite Gold Brown",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3811,11 +5375,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905717575,
+  "id": 52290018705735,
   "title": "Isabell Petite Gold Black",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3829,11 +5393,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905684807,
+  "id": 52290018672967,
   "title": "Isabell Petite Gold",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3848,11 +5412,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905652039,
+  "id": 52290018640199,
   "title": "Isabell Petite Silver Black",
   "type": "Watch",
-  "price_rub": 7965,
-  "old_rub": 13365,
+  "price_rub": 8000,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -3866,11 +5430,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905488199,
+  "id": 52290018443591,
   "title": "Isabell Petite Silver",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -3884,11 +5448,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905422663,
+  "id": 52290018410823,
   "title": "Macy Petite Black Gold Silver",
   "type": "Watch",
-  "price_rub": 9639,
-  "old_rub": 16065,
+  "price_rub": 9700,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -3902,11 +5466,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905357127,
+  "id": 52290018345287,
   "title": "Macy Petite Gold Silver",
   "type": "Watch",
-  "price_rub": 11246,
-  "old_rub": 16065,
+  "price_rub": 11300,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -3921,11 +5485,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905258823,
+  "id": 52290018246983,
   "title": "Macy Petite Gold Burgundy",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3941,11 +5505,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905226055,
+  "id": 52290018214215,
   "title": "Macy Petite Gold Brown",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3958,11 +5522,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905193287,
+  "id": 52290018181447,
   "title": "Macy Petite Gold Black",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3976,11 +5540,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905160519,
+  "id": 52290018148679,
   "title": "Macy Petite Gold White",
   "type": "Watch",
-  "price_rub": 10300,
-  "old_rub": 14715,
+  "price_rub": 10400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -3995,11 +5559,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905127751,
+  "id": 52290018115911,
   "title": "Macy Petite Silver Black",
   "type": "Watch",
-  "price_rub": 9315,
-  "old_rub": 13365,
+  "price_rub": 9400,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -4013,11 +5577,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345905029447,
+  "id": 52290018050375,
   "title": "Macy Petite Silver White",
   "type": "Watch",
-  "price_rub": 9315,
-  "old_rub": 13365,
+  "price_rub": 9400,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -4031,11 +5595,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10345904767303,
+  "id": 52290017886535,
   "title": "Isabell Gold Burgundy",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -4049,11 +5613,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305406763335,
-  "title": "Kyra Bracelet",
+  "id": 52145181360455,
+  "title": "Kyra Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4065,11 +5629,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305406435655,
-  "title": "Mariah Bracelet",
+  "id": 52145181393223,
+  "title": "Kyra Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kyra_silver_bracelet_1_0072538f-0316-4e05-8115-9c486c627171.png?v=1784285185",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kyra_gold_bracelet_1_06699a06-5ad0-43e4-b050-7bf5fdc066d5.png?v=1784285177",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBKYRAG.jpg?v=1756472850",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBKYRAS_1.jpg?v=1756472848",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBKYRAS.jpg?v=1756472849"
+  ]
+ },
+ {
+  "id": 52145178870087,
+  "title": "Mariah Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4083,11 +5663,29 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305406402887,
-  "title": "Cassie Bracelet",
+  "id": 52145178902855,
+  "title": "Mariah Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mariah_silver_bracelet_1_1729590f-769e-4cc2-977d-a05979850c6d.png?v=1784285139",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mariah_gold_bracelet_1_78c6bdcf-c2ae-47b5-bbcf-7da6350d0b7c.png?v=1784285133",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBMARG_1.jpg?v=1756472638",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBMARG_2.jpg?v=1756472638",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBMARG.jpg?v=1756472638",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBMARS_1.jpg?v=1756472638",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBMARS.jpg?v=1756472638"
+  ]
+ },
+ {
+  "id": 52145178673479,
+  "title": "Cassie Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4100,11 +5698,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305406206279,
-  "title": "Cassie Earrings",
+  "id": 52145178706247,
+  "title": "Cassie Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cassie_silver_bracelet_1_1f8f45be-b629-4ba0-ad56-7029338e4982.png?v=1784285012",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cassie_gold_bracelet_1_0ac751dc-4e4a-41da-bfd6-0ba6a4b0bcbf.png?v=1784285038",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRCASG_a5b81f0c-6917-426d-a376-959cc9a4e2ef.jpg?v=1756472483",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBCASG.jpg?v=1756472483",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBCASS.jpg?v=1756472483",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRCASS_1_90791fe8-c4d6-4b3b-aadf-31832e44109c.jpg?v=1756472462"
+  ]
+ },
+ {
+  "id": 52145177723207,
+  "title": "Cassie Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4115,11 +5730,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305405944135,
-  "title": "Odelia Earrings",
+  "id": 52145177755975,
+  "title": "Cassie Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cassi_silver_earrings_1_ecbd16f3-cbfc-4829-935e-686b5974468c.png?v=1784285086",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cassi_gold_earrings_1_f433ec40-779b-47fb-a229-a30256e9f0d2.png?v=1784285080",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JECASG.jpg?v=1756471935",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JECASG_1.jpg?v=1756471935"
+  ]
+ },
+ {
+  "id": 52145173365063,
+  "title": "Odelia Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4130,11 +5760,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305405780295,
-  "title": "Hellen Earrings",
+  "id": 52145173397831,
+  "title": "Odelia Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Odelia_silver_earrings_1.png?v=1784285334",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Odelia_gold_earrings_1.png?v=1784285325",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEODEG_1.jpg?v=1756471791",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEODEG.jpg?v=1756471791"
+  ]
+ },
+ {
+  "id": 52145172873543,
+  "title": "Hellen Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4146,11 +5791,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305405747527,
-  "title": "Tiffany Earrings",
+  "id": 52145172906311,
+  "title": "Hellen Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hellen_silver_earrings_1_83e2cf76-76b5-44bb-8984-f4f92a87dbac.png?v=1784285380",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Hellen_gold_earrings_1_fd94dba3-4312-45d2-aebd-9e244f009e81.png?v=1784285377",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEHELG_2.jpg?v=1756471738",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEHELG_3.jpg?v=1756471738",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEHELG.jpg?v=1756471737"
+  ]
+ },
+ {
+  "id": 52145170809159,
+  "title": "Tiffany Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4163,11 +5824,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305405223239,
-  "title": "Tiffany Necklace",
+  "id": 52145170841927,
+  "title": "Tiffany Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 2632,
-  "old_rub": 5265,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Tiffany_earrings_silver_1_889db4ea-bc71-4b87-acf5-ce2e0d46d157.png?v=1784285419",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Tiffany_earrings_gold_1_f731c31d-bd57-4945-b223-a13128ff4d96.png?v=1784285416",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JETIFG_1.jpg?v=1756471612",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JETIFG.jpg?v=1756471612",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JETIFS.jpg?v=1756471611",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNTIFG_1_f2968873-b2e0-4ae0-bf50-b03040b9df83.jpg?v=1756471612"
+  ]
+ },
+ {
+  "id": 52145166451015,
+  "title": "Tiffany Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 5300,
   "sale": true,
   "available": false,
   "images": [
@@ -4179,11 +5857,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305404436807,
-  "title": "Kyra Ring",
+  "id": 52145166483783,
+  "title": "Tiffany Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 2700,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Tiffany_necklace_silver_1_82088e37-bdc1-49fb-a729-9bc70621377f.png?v=1784285479",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Tiffany_necklace_gold_1_fefaf2c3-3971-49e4-8238-6b8d32c25fc3.png?v=1784285477",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNTIFG_1.jpg?v=1756471528",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNTIFG.jpg?v=1756471528",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNTIFS.jpg?v=1756471528"
+  ]
+ },
+ {
+  "id": 52145161109831,
+  "title": "Kyra Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -4196,11 +5890,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305404010823,
-  "title": "Mariah Ring",
+  "id": 52145161142599,
+  "title": "Kyra Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kyra_silver_ring_1_3d7962bf-4e5a-4562-a9b1-c92b9f6e544d.png?v=1784285556",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kyra_gold_ring_1_a6ce65f7-1fe0-44f8-83a3-dd4058dd4a6b.png?v=1784285548",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRKYRAG_1.jpg?v=1756472921",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRKYRAG.jpg?v=1756472921",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRKYRAS_2.jpg?v=1756472921",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRKYRAS.jpg?v=1756472922"
+  ]
+ },
+ {
+  "id": 52145160126791,
+  "title": "Mariah Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4213,11 +5924,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305403650375,
-  "title": "Cassie Ring",
+  "id": 52145160159559,
+  "title": "Mariah Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mariah_silver_ring_1_4be34e14-4002-4293-a9a7-c0847626e56b.png?v=1784285594",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mariah_gold_ring_1_61cb0900-a473-4b9c-96f5-6261b7883727.png?v=1784285591",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRMARG_1.jpg?v=1756472718",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRMARG.jpg?v=1756472718",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRMARS.jpg?v=1756472725",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRMARS_1.jpg?v=1756472725"
+  ]
+ },
+ {
+  "id": 52145159209287,
+  "title": "Cassie Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4230,11 +5958,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305401848135,
-  "title": "Violet Ring",
+  "id": 52145159242055,
+  "title": "Cassie Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1958,
-  "old_rub": 3915,
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cassie_silver_ring_1_42141482-88ab-49ac-88a1-f5d46b42325e.png?v=1784285641",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cassie_gold_ring_1_5390e92b-24b6-49cf-a408-09a1d4b6822c.png?v=1784285638",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRCASG_1.jpg?v=1756472156",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRCASG.jpg?v=1756472155",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRCASS.jpg?v=1756472171",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRCASS_1.jpg?v=1756472171"
+  ]
+ },
+ {
+  "id": 52145145282887,
+  "title": "Violet Ring Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4246,11 +5991,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10306240381255,
+  "id": 52145145315655,
+  "title": "Violet Ring Silver",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_silver_ring_1_ae4f1ac6-d641-4cd2-bd48-4be12364ff2a.png?v=1784285700",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_gold_ring_1_beb2677b-14bc-49e0-91be-f686413913e1.png?v=1784285695",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRVIOG_1.jpg?v=1756472774",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRVIOG.jpg?v=1756472774",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRVIOS.jpg?v=1756472774"
+  ]
+ },
+ {
+  "id": 52150305128775,
   "title": "Flora Gold White Set",
   "type": "Jewelry",
-  "price_rub": 4266,
-  "old_rub": 10665,
+  "price_rub": 4300,
+  "old_rub": 10700,
   "sale": true,
   "available": false,
   "images": [
@@ -4261,11 +6022,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10305406861639,
+  "id": 52145181753671,
   "title": "Flora Gold Set",
   "type": "Jewelry",
   "price_rub": 3200,
-  "old_rub": 10665,
+  "old_rub": 10700,
   "sale": true,
   "available": true,
   "images": [
@@ -4277,11 +6038,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10287746842951,
-  "title": "Liz Ring",
+  "id": 52071608156487,
+  "title": "Liz Ring Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4292,11 +6053,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10287739273543,
-  "title": "Nylah Necklace",
+  "id": 52071621984583,
+  "title": "Liz Ring Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Liz_silver_ring_1.png?v=1754395897",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Liz_gold_ring_1.png?v=1754395902",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRLIZ_1.jpg?v=1754395902",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JRLIZ_2.jpg?v=1754395902"
+  ]
+ },
+ {
+  "id": 52071557890375,
+  "title": "Nylah Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4308,11 +6084,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10287733506375,
-  "title": "Nylah Bracelet",
+  "id": 52071557923143,
+  "title": "Nylah Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nylah_silver_necklace_1.png?v=1754395535",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nylah_gold_necklace_1.png?v=1754395536",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nylah_gold_necklace_2.jpg?v=1754395535",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nylah_gold_necklace_3.jpg?v=1754395535",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nylah_gold_necklace_4.jpg?v=1754395535"
+  ]
+ },
+ {
+  "id": 52071519224135,
+  "title": "Nylah Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4323,11 +6115,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10287744811335,
-  "title": "June Necklace",
+  "id": 52071519256903,
+  "title": "Nylah Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nylah_silver_bracelet_1.png?v=1754395385",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nylah_gold_bracelet_1.png?v=1754395385",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nylah_gold_bracelet_2.jpg?v=1754395385",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Nylah_gold_bracelet_3.jpg?v=1754395385"
+  ]
+ },
+ {
+  "id": 52071584137543,
+  "title": "June Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4339,11 +6146,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10287741370695,
-  "title": "Diona Necklace",
+  "id": 52071584170311,
+  "title": "June Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/June_Silver_Necklace_1.png?v=1754395699",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/June_Gold_Necklace_1.png?v=1754395710",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNJUNEG_1.jpg?v=1754395710",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNJUNEG_2.jpg?v=1754395710",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNJUNEG_3.jpg?v=1754395710"
+  ]
+ },
+ {
+  "id": 52071567130951,
+  "title": "Diona Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4354,11 +6177,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10287740354887,
-  "title": "Ashlee Necklace",
+  "id": 52071567163719,
+  "title": "Diona Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Silver_Necklace_1.png?v=1754395610",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Gold_Necklace_1.png?v=1754395610",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Gold_Necklace_2.jpg?v=1754395610",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Gold_Necklace_3.jpg?v=1754395611"
+  ]
+ },
+ {
+  "id": 52071563821383,
+  "title": "Ashlee Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4370,11 +6208,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10287737962823,
-  "title": "Diona Bracelet",
+  "id": 52071563854151,
+  "title": "Ashlee Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1566,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ashlee_silver_necklace_1.png?v=1754395576",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ashlee_gold_necklace_1.png?v=1754395576",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ashlee_gold_necklace_2.jpg?v=1754395576",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ashlee_gold_necklace_3.jpg?v=1754395576",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ashlee_gold_necklace_4.jpg?v=1754395577"
+  ]
+ },
+ {
+  "id": 52071550648647,
+  "title": "Diona Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4385,11 +6239,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10287731147079,
-  "title": "Ashlee Bracelet",
+  "id": 52071550681415,
+  "title": "Diona Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Silver_Bracelet_1.png?v=1754395481",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Gold_Bracelet_1.png?v=1754395482",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Gold_Bracelet_2.jpg?v=1754395482",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Diona_Gold_Bracelet_3.jpg?v=1754395482"
+  ]
+ },
+ {
+  "id": 52071504544071,
+  "title": "Ashlee Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4400,11 +6269,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10122519839047,
+  "id": 52071504576839,
+  "title": "Ashlee Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ashlee_silver_bracelet_1.png?v=1754395315",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ashlee_gold_bracelet_1.png?v=1754395314",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ashlee_gold_bracelet_2.jpg?v=1754395314",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Ashlee_gold_bracelet_3.jpg?v=1754395314"
+  ]
+ },
+ {
+  "id": 51442384798023,
   "title": "Sophia Bracelets",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4415,11 +6299,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180323541319,
-  "title": "Cindy Earrings",
+  "id": 51627550802247,
+  "title": "Cindy Earrings Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4431,11 +6315,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180320297287,
-  "title": "Fiona Chic Earrings",
+  "id": 51627550835015,
+  "title": "Cindy Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cindy_Silver_6f6c5ac7-a3d2-422c-b611-c8749dfd05b0.png?v=1784285838",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Cindy_Gold_0681d4b1-24b5-4992-9daa-8bdeaef0784e.png?v=1784285830",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JECINDYG_2.jpg?v=1750908688",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JECINDYG_3.jpg?v=1750908688",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JECINDYG.jpg?v=1750908689"
+  ]
+ },
+ {
+  "id": 51627545723207,
+  "title": "Fiona Chic Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4446,11 +6346,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180318855495,
-  "title": "Fiona Chic Necklace",
+  "id": 51627545755975,
+  "title": "Fiona Chic Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1984,
-  "old_rub": 6615,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Fiona_chic_earrings_gold.png?v=1749711350",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEFIONACG.jpg?v=1750908849",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEFIONACG_1.jpg?v=1750908849",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEFIONACG_2.jpg?v=1750908849"
+  ]
+ },
+ {
+  "id": 51627544346951,
+  "title": "Fiona Chic Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2000,
+  "old_rub": 6700,
   "sale": true,
   "available": true,
   "images": [
@@ -4461,11 +6376,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180316987719,
-  "title": "Fiona Chic Bracelet",
+  "id": 51627544379719,
+  "title": "Fiona Chic Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 2000,
+  "old_rub": 6700,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Fiona_chic_necklace_gold.png?v=1749711358",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNFIONACG_1.jpg?v=1750908920",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNFIONACG_3.jpg?v=1750908920",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNFIONACG_4.jpg?v=1750908919"
+  ]
+ },
+ {
+  "id": 51627542282567,
+  "title": "Fiona Chic Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4477,11 +6407,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180314005831,
-  "title": "Kyra Earrings",
+  "id": 51627542315335,
+  "title": "Fiona Chic Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Fiona_chic_bracelet_gold.png?v=1749711322",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBFIONACG_1.jpg?v=1750908755",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBFIONACG_2.jpg?v=1750908755",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBFIONACG.jpg?v=1750908756",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBFIONACG_3.jpg?v=1750908756"
+  ]
+ },
+ {
+  "id": 51627538448711,
+  "title": "Kyra Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4491,11 +6437,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180312465735,
-  "title": "Elora Earrings",
+  "id": 51627538481479,
+  "title": "Kyra Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Kyra_Gold.png?v=1749711383",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC07638.jpg?v=1749711382",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC07655.jpg?v=1749711382"
+  ]
+ },
+ {
+  "id": 51627534287175,
+  "title": "Elora Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4505,11 +6465,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180312072519,
-  "title": "Yara Earrings",
+  "id": 51627534319943,
+  "title": "Elora Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Elora_Gold.png?v=1749711155",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC07603.jpg?v=1749711155",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC07609.jpg?v=1749711155"
+  ]
+ },
+ {
+  "id": 51627533599047,
+  "title": "Yara Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4519,11 +6493,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180309254471,
-  "title": "Trinity Necklace",
+  "id": 51627533631815,
+  "title": "Yara Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 2646,
-  "old_rub": 6615,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Yara_gold.png?v=1749711640",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC07624.jpg?v=1749711640",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC07614.jpg?v=1749711640"
+  ]
+ },
+ {
+  "id": 51627526455623,
+  "title": "Trinity Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 2700,
+  "old_rub": 6700,
   "sale": true,
   "available": false,
   "images": [
@@ -4533,11 +6521,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180324557127,
-  "title": "Mae Necklace",
+  "id": 51627526488391,
+  "title": "Trinity Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 2700,
+  "old_rub": 6700,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Trinity_gold.png?v=1749711605",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC07568.jpg?v=1749711605",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/DSC07594.jpg?v=1749711605"
+  ]
+ },
+ {
+  "id": 51627551818055,
+  "title": "Mae Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4548,11 +6550,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180325572935,
-  "title": "Zoey Necklace",
+  "id": 51627551850823,
+  "title": "Mae Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mae_silver.png?v=1784285794",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Mae_gold_026f28c2-c0f2-42df-b09e-87ec6e250318.png?v=1784285792",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNMAEG_1.jpg?v=1750908652",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNMAEG.jpg?v=1750908652"
+  ]
+ },
+ {
+  "id": 51627553227079,
+  "title": "Zoey Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": false,
   "images": [
@@ -4564,11 +6581,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10198627418439,
+  "id": 51627553259847,
+  "title": "Zoey Necklace Silver",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Zoey_silver.png?v=1784285752",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Zoey_gold_86f45507-7ecb-4711-aa14-434c1ee44a88.png?v=1784285750",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNZOEYG_1.jpg?v=1749711999",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNZOEYG_2.jpg?v=1749711999",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNZOEYG.jpg?v=1749711999"
+  ]
+ },
+ {
+  "id": 51696720478535,
   "title": "Ava Necklace Gold",
   "type": "Jewelry",
-  "price_rub": 2646,
-  "old_rub": 6615,
+  "price_rub": 2700,
+  "old_rub": 6700,
   "sale": true,
   "available": true,
   "images": [
@@ -4578,11 +6611,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10180328161607,
+  "id": 51627557781831,
   "title": "Ava Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 2646,
-  "old_rub": 6615,
+  "price_rub": 2700,
+  "old_rub": 6700,
   "sale": true,
   "available": true,
   "images": [
@@ -4593,11 +6626,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956071932231,
-  "title": "Jody Necklace",
+  "id": 50948045996359,
+  "title": "Jody Necklace Gold",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4609,11 +6642,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956071735623,
-  "title": "Alexis Necklace",
+  "id": 50948046029127,
+  "title": "Jody Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_1a1ed7ab-3e84-4fa7-9815-655f55580347.png?v=1744274043",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_7159554f-69a1-4501-a9bb-a9b427091cd1.png?v=1744273968",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_83efc280-7c51-4876-b46f-7904c1df529d.png?v=1744273968",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNJODYG.jpg?v=1744273968",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNJODYG1.jpg?v=1744273968"
+  ]
+ },
+ {
+  "id": 50948045537607,
+  "title": "Alexis Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4626,11 +6675,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956069835079,
-  "title": "Jody Bracelet",
+  "id": 50948045570375,
+  "title": "Alexis Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_e78c2479-cc93-4362-a13b-b2328f381083.png?v=1744274005",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_078300ff-4daa-4597-8936-39a8b13f97cb.png?v=1744274068",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_4f13a091-368b-4321-9835-71eb265cb26e.png?v=1744274068",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNALEXISG.jpg?v=1744274068",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNALEXISG1.jpg?v=1744274068",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNALEXISG2.jpg?v=1744274068"
+  ]
+ },
+ {
+  "id": 50948039475527,
+  "title": "Jody Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4642,11 +6708,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956069736775,
-  "title": "Alexis Bracelet",
+  "id": 50948039508295,
+  "title": "Jody Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_911d7a5c-c0e8-431b-81f0-76acfd31715a.png?v=1744274106",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_e4932c1e-28da-4cc9-9d7c-c994e0b2aa65.png?v=1744274107",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_d80cab31-4221-4b31-8cd6-d63eabb64e0a.png?v=1744274107",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBJODYG.jpg?v=1744274107",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBJODYG1.jpg?v=1744274107"
+  ]
+ },
+ {
+  "id": 50948038459719,
+  "title": "Alexis Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4658,11 +6740,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080377012551,
+  "id": 50948038492487,
+  "title": "Alexis Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_064979a7-ec67-4b40-a125-9cb5e3d37c4b.png?v=1744274147",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_a69331c1-e15d-4513-b867-7e1b373fcc99.png?v=1744274248",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_61486726-287a-4093-8454-e6a3cde8649f.png?v=1744274248",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBALEXISG.jpg?v=1744274248",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBALEXISG1.jpg?v=1744274248"
+  ]
+ },
+ {
+  "id": 51322555138375,
   "title": "Julia Black Gold Silver",
   "type": "Watch",
-  "price_rub": 6426,
-  "old_rub": 16065,
+  "price_rub": 6500,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -4674,11 +6772,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080376619335,
+  "id": 51322553860423,
   "title": "Julia Gold Silver",
   "type": "Watch",
-  "price_rub": 6426,
-  "old_rub": 16065,
+  "price_rub": 6500,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -4690,11 +6788,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080375570759,
+  "id": 51322542358855,
   "title": "Julia Gold Brown",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -4708,11 +6806,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080374587719,
+  "id": 51322539213127,
   "title": "Julia Gold Black",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -4726,13 +6824,13 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080373899591,
+  "id": 51322537476423,
   "title": "Julia Gold White",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
-  "available": true,
+  "available": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Julia_Gold_White_1_bf1ed6fc-7a78-47bf-95d3-d9e1bb726d0d.png?v=1744032879",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Julia_Gold_White3.jpg?v=1744032879",
@@ -4744,11 +6842,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080373440839,
+  "id": 51322533282119,
   "title": "Julia Silver Black",
   "type": "Watch",
-  "price_rub": 6615,
-  "old_rub": 13365,
+  "price_rub": 6700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -4760,11 +6858,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080372883783,
+  "id": 51322532102471,
   "title": "Julia Silver White",
   "type": "Watch",
-  "price_rub": 6615,
-  "old_rub": 13365,
+  "price_rub": 6700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -4777,11 +6875,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080358302023,
-  "title": "Roxy Bracelet",
+  "id": 51322440483143,
+  "title": "Roxy Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4791,11 +6889,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080357122375,
-  "title": "Cleo Bracelet",
+  "id": 51322440515911,
+  "title": "Roxy Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_02e298fd-31fe-43b4-b33a-cdb7806e698e.png?v=1743423405",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_b0a66e7f-8128-435a-810d-17104830b46c.png?v=1743423399",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_48c4bb5b-c610-4e01-9abf-13c08ccdac11.png?v=1743423400"
+  ]
+ },
+ {
+  "id": 51322436583751,
+  "title": "Cleo Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4807,11 +6919,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 10080353616199,
-  "title": "Eve Bracelet",
+  "id": 51322436616519,
+  "title": "Cleo Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_99a30c35-fda7-498e-8c63-476960e9159a.png?v=1743423276",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_f871fe65-4c39-4c1e-a27f-ad268b0632f5.png?v=1743423234",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_914ef160-c884-4aef-b101-b8f3e9f841e2.png?v=1743423234",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBCLEOG2.jpg?v=1743423269",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBCLEOG.jpg?v=1743423269"
+  ]
+ },
+ {
+  "id": 51322424820039,
+  "title": "Eve Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -4823,11 +6951,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956083728711,
-  "title": "Marly Earrings",
+  "id": 51322424852807,
+  "title": "Eve Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 2200,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_d8c00e9d-0eb6-478a-9f30-159e14d4ce25.png?v=1743423093",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_709f755f-2f22-4423-bdc3-317283c0f6c9.png?v=1743423087",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_88c29338-81df-4c8f-aa01-d3864a8c41c7.png?v=1743423087",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBEVEG.jpg?v=1743423134",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBEVEG3.jpg?v=1743423158"
+  ]
+ },
+ {
+  "id": 50948062118215,
+  "title": "Marly Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4839,11 +6983,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956084318535,
-  "title": "Britt Earrings",
+  "id": 50948062150983,
+  "title": "Marly Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_e50312a1-a1ce-4caf-9eca-bf63bb53aafc.png?v=1739806887",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_cd4664b3-0b63-415b-bf4f-e2c64ac54088.png?v=1739806887",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEMARLYG1.jpg?v=1739806887",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEMARLYG2.jpg?v=1739806887",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEMARLYG.jpg?v=1739806887"
+  ]
+ },
+ {
+  "id": 50948058906951,
+  "title": "Britt Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4854,11 +7014,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956083073351,
-  "title": "Faye Earrings",
+  "id": 50948058939719,
+  "title": "Britt Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_57abe511-02ab-455e-aa31-fa361619f741.png?v=1739806862",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_0e95694d-c969-40e9-9226-300e8f460d41.png?v=1739806861",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEBRITTG.jpg?v=1739806861",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEBRITTG1.jpg?v=1739806861"
+  ]
+ },
+ {
+  "id": 50948063166791,
+  "title": "Faye Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4869,11 +7044,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956072128839,
-  "title": "Tess Earrings",
+  "id": 50948063199559,
+  "title": "Faye Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_d854bbfb-1dc8-44ba-8af5-151894ebd965.png?v=1739805728",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEFAYEG1.jpg?v=1739805728",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEFAYE2.jpg?v=1739805728",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEFAYEG.jpg?v=1739805728"
+  ]
+ },
+ {
+  "id": 50948078666055,
+  "title": "Tess Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4883,11 +7073,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956081598791,
-  "title": "Romy Earrings",
+  "id": 50948078698823,
+  "title": "Tess Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_10bbd205-24fc-4354-92e7-b08ab76026f5.png?v=1738596799",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_51132308-402e-4e35-a962-4faac84c8f33.png?v=1738596790",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JETESSG.jpg?v=1739786859"
+  ]
+ },
+ {
+  "id": 50948063887687,
+  "title": "Romy Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4899,11 +7103,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956081008967,
-  "title": "Indy Earrings",
+  "id": 50948063920455,
+  "title": "Romy Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_647aadd6-97d1-4385-8ff6-2b90c4b9d98b.png?v=1738596769",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_a68a8fa5-123d-49ac-9ccd-2383aba79a56.png?v=1738596759",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEROMYG.jpg?v=1739787221",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEROMYG2.jpg?v=1739787221",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEROMYG1.jpg?v=1739787221"
+  ]
+ },
+ {
+  "id": 50948065755463,
+  "title": "Indy Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4913,11 +7133,25 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956080353607,
-  "title": "Kate Earrings",
+  "id": 50948065788231,
+  "title": "Indy Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_116ab3fc-36aa-45c7-9676-b979ca75a120.png?v=1738596524",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_61b05cfb-5228-4f52-b04c-fd1fd4182b1c.png?v=1738596492",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEINDY.jpg?v=1739787162"
+  ]
+ },
+ {
+  "id": 50948068704583,
+  "title": "Kate Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4929,11 +7163,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956079632711,
-  "title": "Ivy Earrings",
+  "id": 50948068737351,
+  "title": "Kate Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_1cb6ac69-d363-434c-b313-0b15a82643c8.png?v=1738596620",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_cbc54fc0-b515-4f95-9301-527d3db5f50c.png?v=1738596607",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEKATES.jpg?v=1739786929",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEKATE2.jpg?v=1739786961",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEKATES1.jpg?v=1739786960"
+  ]
+ },
+ {
+  "id": 50948070277447,
+  "title": "Ivy Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4944,11 +7194,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956078715207,
-  "title": "Ella Earrings",
+  "id": 50948070310215,
+  "title": "Ivy Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_a57762e1-83fc-4376-8e1c-b785658edb7a.png?v=1738596593",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_88b0fa28-50a0-4e09-9c09-de733cc275dc.png?v=1738596584",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEIVYG.jpg?v=1739786699",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEIVYG1.jpg?v=1739786724"
+  ]
+ },
+ {
+  "id": 50948075094343,
+  "title": "Ella Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4959,11 +7224,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956077961543,
-  "title": "Liz Earrings",
+  "id": 50948075127111,
+  "title": "Ella Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_110d7003-3590-4ff4-a709-0badbc447d33.png?v=1738596461",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_efc122a8-fc18-4ac5-b7ac-f8b0a77317fe.png?v=1738596455",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEELLAG1.jpg?v=1739787123",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JEELLAG.jpg?v=1739787123"
+  ]
+ },
+ {
+  "id": 50948070736199,
+  "title": "Liz Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4974,11 +7254,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956077437255,
-  "title": "Lynn Earrings",
+  "id": 50948070768967,
+  "title": "Liz Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_b213c8e7-0358-4a5a-943a-238262ebac05.png?v=1738596674",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_e7b40ae4-098d-4fde-b36d-4d4db6db2c67.png?v=1738596650",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JELIZG1.jpg?v=1739787692",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JELIZG.jpg?v=1739787693"
+  ]
+ },
+ {
+  "id": 50948078141767,
+  "title": "Lynn Earrings Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -4989,11 +7284,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956071506247,
-  "title": "Fiona Necklace",
+  "id": 50948078174535,
+  "title": "Lynn Earrings Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_ac116dc5-10c8-4b98-8ba7-86ef78134f46.png?v=1738596732",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_a7865793-8e7c-4cc7-8414-e3b3614368ea.png?v=1738596722",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JELYNNG1.jpg?v=1739787056",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JELYNNG.jpg?v=1739787055"
+  ]
+ },
+ {
+  "id": 50948044554567,
+  "title": "Fiona Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5004,11 +7314,26 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9956065214791,
-  "title": "Fiona Bracelet",
+  "id": 50948044587335,
+  "title": "Fiona Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_8961b5d4-3ef5-42a7-a65d-9442bf85adbb.png?v=1739803105",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_2a13b155-fe73-4729-87f6-960d7c82d1d0.png?v=1737877376",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JNFIONAG.jpg?v=1739803105",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_99dc5771-785a-4b68-b9c4-219bdc463e28.png?v=1739803105"
+  ]
+ },
+ {
+  "id": 50948033675591,
+  "title": "Fiona Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5022,11 +7347,29 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750741287239,
+  "id": 50948033708359,
+  "title": "Fiona Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_4889cb4c-a5a1-45d1-9049-20b941a2621f.png?v=1739802204",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_f66bc39f-a6e9-49a7-a54e-ce2e18f1fbd4.png?v=1737877308",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBFIONAG1.jpg?v=1739802204",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_81101cc1-4473-41e8-b0a6-fa1bc6639231.png?v=1739802204",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBFIONAG2.jpg?v=1739802204",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBFIONAG._2.jpg?v=1761673177",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBFIONAG.jpg?v=1761673176"
+  ]
+ },
+ {
+  "id": 50484660994375,
   "title": "Flora Gold White Earrings",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5036,11 +7379,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750711796039,
+  "id": 50484619641159,
   "title": "Flora Gold White Ring",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5050,11 +7393,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750710583623,
+  "id": 50484618789191,
   "title": "Flora Gold Black Ring",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5064,11 +7407,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750709174599,
+  "id": 50484617642311,
   "title": "Flora Silver White Ring",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5079,11 +7422,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750699966791,
+  "id": 50484607713607,
   "title": "Flora Gold Black Earrings",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5094,11 +7437,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750698656071,
+  "id": 50484606665031,
   "title": "Flora Silver White Earrings",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5108,11 +7451,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750692102471,
+  "id": 50484598636871,
   "title": "Flora Gold White Necklace",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5123,11 +7466,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750640165191,
+  "id": 50484522451271,
   "title": "Flora Gold Black Necklace",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": false,
   "images": [
@@ -5137,11 +7480,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750639313223,
+  "id": 50484520780103,
   "title": "Flora Silver White Necklace",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5153,11 +7496,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750636822855,
+  "id": 50484516684103,
   "title": "Flora Gold White Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5168,11 +7511,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750635020615,
+  "id": 50484512489799,
   "title": "Flora Gold Black Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5182,11 +7525,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750634168647,
+  "id": 50484510163271,
   "title": "Flora Silver White Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5198,11 +7541,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9874934563143,
+  "id": 50719795151175,
   "title": "Flora Silver Ring",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5211,11 +7554,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750707831111,
+  "id": 50484616462663,
   "title": "Flora Gold Ring",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5225,11 +7568,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750697836871,
+  "id": 50484604109127,
   "title": "Flora Gold Earrings",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5239,11 +7582,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750696395079,
+  "id": 50484602503495,
   "title": "Flora Silver Earrings",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5253,11 +7596,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750638494023,
+  "id": 50484519502151,
   "title": "Flora Gold Necklace",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": false,
   "images": [
@@ -5268,11 +7611,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750637740359,
+  "id": 50484518453575,
   "title": "Flora Silver Necklace",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5283,106 +7626,201 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750833922375,
-  "title": "Lexi Necklace",
+  "id": 50484843643207,
+  "title": "Lexi Necklace Gold",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": false,
   "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_f3edd7ed-fef1-4fcb-8405-0a5708b6c680.png?v=1732714361",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_6f7d3d13-e17d-4e91-a8a6-de69989eed15.png?v=1732714355",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_f8977aa0-0e8c-4b01-b58e-80ce986dba77.png?v=1732714356",
-   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_f3edd7ed-fef1-4fcb-8405-0a5708b6c680.png?v=1732714361",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_14bbb5c0-134e-48a9-81e5-a59d3a38fa11.png?v=1732714371"
   ]
  },
  {
-  "id": 9750806987079,
-  "title": "Lenora Bracelet",
+  "id": 50484843675975,
+  "title": "Lexi Necklace Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_14bbb5c0-134e-48a9-81e5-a59d3a38fa11.png?v=1732714371",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_6f7d3d13-e17d-4e91-a8a6-de69989eed15.png?v=1732714355",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_f8977aa0-0e8c-4b01-b58e-80ce986dba77.png?v=1732714356",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_f3edd7ed-fef1-4fcb-8405-0a5708b6c680.png?v=1732714361"
+  ]
+ },
+ {
+  "id": 50484791804231,
+  "title": "Lenora Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_ec9e377d-eafe-4f6c-aedb-2673c7d0d6c4.png?v=1730891115",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_9f95272d-dffd-4d9e-8eca-39ce74671a33.png?v=1730890990",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_aa1b0333-8806-4e67-bc42-54a2b9f3f56c.png?v=1730890990",
-   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_ec9e377d-eafe-4f6c-aedb-2673c7d0d6c4.png?v=1730891115",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_bbefd77d-b381-4eaf-a61c-c880ec223fbb.png?v=1730891121",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Burker-fw24-360.jpg?v=1732882363",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Burker-fw24-361.jpg?v=1732882413"
   ]
  },
  {
-  "id": 9750804922695,
-  "title": "Susan Bracelet",
+  "id": 50484791836999,
+  "title": "Lenora Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_bbefd77d-b381-4eaf-a61c-c880ec223fbb.png?v=1730891121",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_9f95272d-dffd-4d9e-8eca-39ce74671a33.png?v=1730890990",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_aa1b0333-8806-4e67-bc42-54a2b9f3f56c.png?v=1730890990",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_ec9e377d-eafe-4f6c-aedb-2673c7d0d6c4.png?v=1730891115",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Burker-fw24-360.jpg?v=1732882363",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Burker-fw24-361.jpg?v=1732882413"
+  ]
+ },
+ {
+  "id": 50484785938759,
+  "title": "Susan Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_f8c2870e-fd41-4deb-8192-b51fc3880460.png?v=1732877538",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_75c52e27-b620-4ea9-896d-bec48361cb4b.png?v=1732634552",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_51e5730f-32f8-418d-9f35-8421b5eadc34.png?v=1732634552",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Burker-fw24-334.jpg?v=1732877436",
-   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_f8c2870e-fd41-4deb-8192-b51fc3880460.png?v=1732877538",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_8e7ab43e-5ec4-4045-9f50-9369f9a3ec03.png?v=1732877533"
   ]
  },
  {
-  "id": 9750801908039,
-  "title": "Wendy Bracelet",
+  "id": 50484785971527,
+  "title": "Susan Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_8e7ab43e-5ec4-4045-9f50-9369f9a3ec03.png?v=1732877533",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_75c52e27-b620-4ea9-896d-bec48361cb4b.png?v=1732634552",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_51e5730f-32f8-418d-9f35-8421b5eadc34.png?v=1732634552",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Burker-fw24-334.jpg?v=1732877436",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_f8c2870e-fd41-4deb-8192-b51fc3880460.png?v=1732877538"
+  ]
+ },
+ {
+  "id": 50484782367047,
+  "title": "Wendy Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_2c1d5d5b-dafe-4ee7-88f4-a7a00ae653f2.png?v=1732711355",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_2790c332-858f-47e9-b03e-79db15e8f509.png?v=1732711343",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Burker-fw24-366.jpg?v=1732882761",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_3009d18c-e001-49a3-9b79-3f7c83653df6.png?v=1732711342",
-   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_2c1d5d5b-dafe-4ee7-88f4-a7a00ae653f2.png?v=1732711355",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_d7d5613f-1e7c-43c9-805e-2d7426374fca.png?v=1732711350"
   ]
  },
  {
-  "id": 9750797058375,
-  "title": "Lexi Bracelet",
+  "id": 50484782399815,
+  "title": "Wendy Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_d7d5613f-1e7c-43c9-805e-2d7426374fca.png?v=1732711350",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_2790c332-858f-47e9-b03e-79db15e8f509.png?v=1732711343",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Burker-fw24-366.jpg?v=1732882761",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_3009d18c-e001-49a3-9b79-3f7c83653df6.png?v=1732711342",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_2c1d5d5b-dafe-4ee7-88f4-a7a00ae653f2.png?v=1732711355"
+  ]
+ },
+ {
+  "id": 50484773093703,
+  "title": "Lexi Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_2e2c6722-568f-4da1-b2bb-dc8c14af770e.png?v=1740131712",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_109c545e-d330-4498-bb1e-9986c1272cad.png?v=1730890923",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/IMG_1978.heic?v=1740131712",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_28a4523d-84b9-4f5c-837b-51ed0607a3d8.png?v=1740131712",
-   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_2e2c6722-568f-4da1-b2bb-dc8c14af770e.png?v=1740131712",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_a439d540-2ead-4848-ac1a-de7d30b27c1c.png?v=1740131712"
   ]
  },
  {
-  "id": 9750789882183,
-  "title": "Lily Necklace",
+  "id": 50484773126471,
+  "title": "Lexi Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_a439d540-2ead-4848-ac1a-de7d30b27c1c.png?v=1740131712",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_109c545e-d330-4498-bb1e-9986c1272cad.png?v=1730890923",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/IMG_1978.heic?v=1740131712",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_28a4523d-84b9-4f5c-837b-51ed0607a3d8.png?v=1740131712",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_2e2c6722-568f-4da1-b2bb-dc8c14af770e.png?v=1740131712"
+  ]
+ },
+ {
+  "id": 50484770406727,
+  "title": "Lily Necklace Gold",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_42e86013-cdfa-4988-98b3-3cf4f3465f09.png?v=1732714498",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_7481ae36-9600-4a5c-95a4-fcffd9b9973c.png?v=1732714493",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_3e53a2ea-2a65-4480-b01b-b160215546f5.png?v=1732714493",
-   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_42e86013-cdfa-4988-98b3-3cf4f3465f09.png?v=1732714498",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_ace0d4f3-431b-4ef5-a257-55781b31f7c3.png?v=1732714505"
   ]
  },
  {
-  "id": 9750633513287,
+  "id": 50484770439495,
+  "title": "Lily Necklace Silver",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_ace0d4f3-431b-4ef5-a257-55781b31f7c3.png?v=1732714505",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_7481ae36-9600-4a5c-95a4-fcffd9b9973c.png?v=1732714493",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_3e53a2ea-2a65-4480-b01b-b160215546f5.png?v=1732714493",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_42e86013-cdfa-4988-98b3-3cf4f3465f09.png?v=1732714498"
+  ]
+ },
+ {
+  "id": 50484508950855,
   "title": "Flora Gold Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5393,11 +7831,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9750632694087,
+  "id": 50484505772359,
   "title": "Flora Silver Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5408,11 +7846,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9674424713543,
-  "title": "Zoey Bracelet",
+  "id": 50484030046535,
+  "title": "Zoey Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5425,11 +7863,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9674439917895,
+  "id": 50484030079303,
+  "title": "Zoey Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_0732f6a6-9c75-4823-8833-45b0aa474e33.png?v=1739802953",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_fad79584-1b00-4ce8-8338-fa337d9d2a1e.png?v=1728958279",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBZOEYG.jpg?v=1739802953",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_d1d2ae9b-9b2d-4f07-ad36-35b98bbfa54f.png?v=1739802953",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBZOEYG1.jpg?v=1739802940",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBZOEYS.jpg?v=1739802939"
+  ]
+ },
+ {
+  "id": 50324535804231,
   "title": "Lily Gold/Silver Bracelet",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5440,11 +7895,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9674439033159,
-  "title": "Lily Double Bracelet",
+  "id": 50484014022983,
+  "title": "Lily Double Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5457,11 +7912,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9674422649159,
+  "id": 50484014055751,
+  "title": "Lily Double Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBLSS-1_df0dfd0e-d34d-4b35-a6ce-3fd15277033c.png?v=1739802918",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBLGG-1.png?v=1728956121",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBLILYDG.jpg?v=1739802918",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBLGG-2.png?v=1739802918",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBLILYDS.jpg?v=1739802917",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBLILYDS1.jpg?v=1739802917"
+  ]
+ },
+ {
+  "id": 50324445823303,
   "title": "Jade Gold Black Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5472,13 +7944,13 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9674422059335,
+  "id": 50324442874183,
   "title": "Jade Gold Brown Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
-  "available": true,
+  "available": false,
   "images": [
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_7da90aea-e690-4770-9a23-47595477219e.png?v=1729499581",
    "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_b04e9fd2-c264-48a5-bd7c-0cf8a2fface8.png?v=1729499580",
@@ -5487,11 +7959,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9619790856519,
+  "id": 50216117862727,
   "title": "Ruby Petite Black Gold Silver",
   "type": "Watch",
-  "price_rub": 4820,
-  "old_rub": 16065,
+  "price_rub": 4900,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -5504,11 +7976,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9619788071239,
+  "id": 50216111898951,
   "title": "Ruby Petite Gold Silver",
   "type": "Watch",
-  "price_rub": 4820,
-  "old_rub": 16065,
+  "price_rub": 4900,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -5523,11 +7995,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9616019718471,
+  "id": 50209165771079,
   "title": "Olivia Gold White",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -5543,11 +8015,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9616017686855,
+  "id": 50209161150791,
   "title": "Olivia Silver Black",
   "type": "Watch",
-  "price_rub": 6615,
-  "old_rub": 13365,
+  "price_rub": 6700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -5562,11 +8034,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9616015425863,
+  "id": 50209159315783,
   "title": "Olivia Gold Black",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -5580,11 +8052,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9616009658695,
+  "id": 50209152434503,
   "title": "Olivia Silver",
   "type": "Watch",
-  "price_rub": 10665,
-  "old_rub": 13365,
+  "price_rub": 10700,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -5600,11 +8072,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9602887123271,
+  "id": 50186115023175,
   "title": "Olivia Black Gold Silver",
   "type": "Watch",
-  "price_rub": 6426,
-  "old_rub": 16065,
+  "price_rub": 6500,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -5616,11 +8088,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9602885255495,
+  "id": 50186112336199,
   "title": "Olivia Gold Silver",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -5635,11 +8107,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9602883354951,
+  "id": 50186110697799,
   "title": "Olivia Gold Brown",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -5652,11 +8124,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9160071741767,
+  "id": 49393890099527,
   "title": "Ruby Petite Gold Brown",
   "type": "Watch",
-  "price_rub": 4414,
-  "old_rub": 14715,
+  "price_rub": 4500,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -5669,11 +8141,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9160071053639,
+  "id": 49393886560583,
   "title": "Ruby Petite Gold Black",
   "type": "Watch",
-  "price_rub": 4414,
-  "old_rub": 14715,
+  "price_rub": 4500,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -5684,11 +8156,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9160070365511,
+  "id": 49393885020487,
   "title": "Ruby Petite Gold White",
   "type": "Watch",
-  "price_rub": 4414,
-  "old_rub": 14715,
+  "price_rub": 4500,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -5700,11 +8172,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9160069316935,
+  "id": 49393882333511,
   "title": "Ruby Petite Silver Black",
   "type": "Watch",
-  "price_rub": 3915,
-  "old_rub": 13365,
+  "price_rub": 4000,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -5717,11 +8189,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9160067744071,
+  "id": 49393878466887,
   "title": "Ruby Petite Silver White",
   "type": "Watch",
-  "price_rub": 3915,
-  "old_rub": 13365,
+  "price_rub": 4000,
+  "old_rub": 13400,
   "sale": true,
   "available": false,
   "images": [
@@ -5734,11 +8206,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9080136859975,
+  "id": 49166856094023,
   "title": "Jade Silver Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": false,
   "images": [
@@ -5749,11 +8221,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9080128340295,
+  "id": 49166836203847,
   "title": "Jade Gold Bracelet",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5765,11 +8237,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9080156029255,
-  "title": "Lily Bracelet",
+  "id": 50483999506759,
+  "title": "Lily Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5782,11 +8254,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9080150622535,
-  "title": "Mae Bracelet",
+  "id": 50483999539527,
+  "title": "Lily Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_c1f7e40b-99c5-44fe-a801-882d335ccaec.png?v=1730286844",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_cf9b8ec1-8a13-4cfb-9810-589cc07ee6ff.png?v=1728955963",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_c25cd87a-43c8-4d2b-929b-85138b338927.png?v=1728955964",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/burker-jewelry-square-61.jpg?v=1710254256",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/burker-jewelry-square-68.jpg?v=1710254256",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/burker-jewelry-square-70.jpg?v=1710254256"
+  ]
+ },
+ {
+  "id": 50484022968647,
+  "title": "Mae Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5798,11 +8287,27 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 9080141316423,
-  "title": "June Bracelet",
+  "id": 50484023001415,
+  "title": "Mae Bracelet Silver",
   "type": "Jewelry",
-  "price_rub": 1174,
-  "old_rub": 3915,
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_5571f56a-8767-49d9-8a2c-b6c314619976.png?v=1730287117",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_e838c32b-ef18-44e8-8eb7-00671dd6d83b.png?v=1728957379",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_d862fcc7-8c62-4363-b135-55b8535af5de.png?v=1728957380",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/burker-jewelry-square-56.jpg?v=1710254263",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/burker-jewelry-square-92.jpg?v=1710254263"
+  ]
+ },
+ {
+  "id": 50483984597319,
+  "title": "June Bracelet Gold",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
   "sale": true,
   "available": true,
   "images": [
@@ -5815,11 +8320,28 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8991495389511,
+  "id": 50483984564551,
+  "title": "June Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 1200,
+  "old_rub": 4000,
+  "sale": true,
+  "available": false,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_1ed186ae-56a8-462f-9718-087d6daa9754.png?v=1730286650",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/1_721fb0df-95da-41ae-a32e-0fd550f8a1f3.png?v=1728956516",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/2_2d60ed91-6789-4f3d-acd2-d64a56bab7b6.png?v=1728956629",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/burker-jewelry-square-23.jpg?v=1710254249",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/burker-jewelry-square-93.jpg?v=1710254249",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/burker-jewelry-square-96.jpg?v=1710254249"
+  ]
+ },
+ {
+  "id": 48970148708679,
   "title": "Ava Gold Brown Bracelet",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5831,11 +8353,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8953975537991,
+  "id": 48871477379399,
   "title": "Macy Gold Brown",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -5851,11 +8373,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8953974751559,
+  "id": 48871475904839,
   "title": "Isabell Gold Brown",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -5870,11 +8392,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8885965717831,
+  "id": 48645233312071,
   "title": "Ava Gold Black Bracelet",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5886,11 +8408,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8885964734791,
+  "id": 48645226037575,
   "title": "Ava Gold Bracelet",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5904,11 +8426,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8885963325767,
+  "id": 48645216600391,
   "title": "Ava Silver Bracelet",
   "type": "Jewelry",
-  "price_rub": 2106,
-  "old_rub": 5265,
+  "price_rub": 2200,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [
@@ -5921,11 +8443,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8773638521159,
+  "id": 48314185679175,
   "title": "Macy Gold White",
   "type": "Watch",
-  "price_rub": 8829,
-  "old_rub": 14715,
+  "price_rub": 8900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -5939,11 +8461,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8773592744263,
+  "id": 48314119225671,
   "title": "Macy Silver White",
   "type": "Watch",
-  "price_rub": 9315,
-  "old_rub": 13365,
+  "price_rub": 9400,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -5955,11 +8477,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8773587829063,
+  "id": 48314112672071,
   "title": "Macy Black Gold Silver",
   "type": "Watch",
-  "price_rub": 9639,
-  "old_rub": 16065,
+  "price_rub": 9700,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -5974,11 +8496,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8773544608071,
+  "id": 48314028392775,
   "title": "Macy Gold Silver",
   "type": "Watch",
-  "price_rub": 9639,
-  "old_rub": 16065,
+  "price_rub": 9700,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -5993,11 +8515,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8773426020679,
+  "id": 48313831948615,
   "title": "Macy Gold Black",
   "type": "Watch",
-  "price_rub": 7358,
-  "old_rub": 14715,
+  "price_rub": 7400,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -6012,11 +8534,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 8773416354119,
+  "id": 48313813238087,
   "title": "Macy Silver Black",
   "type": "Watch",
-  "price_rub": 9315,
-  "old_rub": 13365,
+  "price_rub": 9400,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -6029,10 +8551,10 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 5287913127980,
+  "id": 34361580748844,
   "title": "Gift Packaging",
   "type": "Gift Packaging",
-  "price_rub": 533,
+  "price_rub": 600,
   "old_rub": null,
   "sale": true,
   "available": true,
@@ -6041,11 +8563,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 6663183401004,
+  "id": 39670815555628,
   "title": "Isabell Silver",
   "type": "Watch",
-  "price_rub": 5265,
-  "old_rub": 13365,
+  "price_rub": 5300,
+  "old_rub": 13400,
   "sale": true,
   "available": true,
   "images": [
@@ -6058,11 +8580,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 5455791194156,
+  "id": 34862364524588,
   "title": "Isabell Black Gold Silver",
   "type": "Watch",
-  "price_rub": 4820,
-  "old_rub": 16065,
+  "price_rub": 4900,
+  "old_rub": 16100,
   "sale": true,
   "available": true,
   "images": [
@@ -6075,11 +8597,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 5455790768172,
+  "id": 34862362984492,
   "title": "Isabell Gold Black",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -6092,11 +8614,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 5455789948972,
+  "id": 34862355578924,
   "title": "Isabell Gold Silver",
   "type": "Watch",
-  "price_rub": 8032,
-  "old_rub": 16065,
+  "price_rub": 8100,
+  "old_rub": 16100,
   "sale": true,
   "available": false,
   "images": [
@@ -6109,11 +8631,11 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 5455789785132,
+  "id": 34862355316780,
   "title": "Isabell Gold",
   "type": "Watch",
-  "price_rub": 5886,
-  "old_rub": 14715,
+  "price_rub": 5900,
+  "old_rub": 14800,
   "sale": true,
   "available": true,
   "images": [
@@ -6130,11 +8652,29 @@ const PRODUCTS = [
   ]
  },
  {
-  "id": 5313116569644,
-  "title": "Violet Bracelet",
+  "id": 50484026802503,
+  "title": "Violet Bracelet Gold",
   "type": "Jewelry",
-  "price_rub": 1580,
-  "old_rub": 5265,
+  "price_rub": 1600,
+  "old_rub": 5300,
+  "sale": true,
+  "available": true,
+  "images": [
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_gold_bracelet_1.png?v=1773738867",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_silver_1_0397f528-5a1e-4852-8e35-8a95a87baa13.png?v=1773738867",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBVIOLETG.jpg?v=1773738867",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBVIOLETG_2.jpg?v=1773738867",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/JBVIOLETG_4.jpg?v=1773738867",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_gold_8a630a8e-4894-4c49-bf05-450b8ce86972.png?v=1785272501",
+   "https://cdn.shopify.com/s/files/1/0367/8457/0412/files/Violet_silver_ad44d676-ce07-45dd-a6d5-3f59db88a13a.png?v=1785272519"
+  ]
+ },
+ {
+  "id": 50484026835271,
+  "title": "Violet Bracelet Silver",
+  "type": "Jewelry",
+  "price_rub": 1600,
+  "old_rub": 5300,
   "sale": true,
   "available": true,
   "images": [

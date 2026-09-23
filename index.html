@@ -68,6 +68,34 @@
     padding:22px 20px 30px;display:none;z-index:51}
   #orderForm input{width:100%;padding:14px;border:1px solid var(--line);border-radius:4px;margin-bottom:12px;font-size:15px}
   #orderForm h3{font-family:Georgia,serif;margin-bottom:16px}
+  .paytotal{font-size:17px;font-weight:700;margin-bottom:12px}
+  .paynote{font-size:12px;color:var(--grey);margin:10px 0 14px;line-height:1.5}
+  .variants{padding:4px 16px 24px}
+  .variants h4{font-family:Georgia,serif;font-size:13px;letter-spacing:2px;margin-bottom:10px;color:var(--ink)}
+  .vrow{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}
+  .vcard{flex:0 0 104px;background:#fff;border:1px solid var(--line);border-radius:4px;overflow:hidden;cursor:pointer}
+  .vcard.na img{opacity:.4}
+  .vcard img{width:104px;height:104px;object-fit:cover;display:block}
+  .vcard p{font-size:10px;padding:6px 7px;margin:0;line-height:1.35;color:var(--ink)}
+  .vcard .price{display:block;font-size:11px;font-weight:700;margin-top:3px}
+  .sizelabel{font-size:12px;letter-spacing:2px;margin-bottom:8px;color:var(--grey)}
+  .colorrow{display:flex;align-items:center;gap:9px;margin:14px 0 2px}
+  .colorrow .cl{font-size:12px;letter-spacing:2px;color:var(--grey);margin-right:2px}
+  .sw{width:26px;height:26px;border-radius:50%;border:1px solid var(--line);cursor:pointer;display:inline-block}
+  .sw.on{outline:2px solid var(--ink);outline-offset:2px}
+  .field{width:100%;padding:14px;border:1px solid var(--line);border-radius:4px;margin-bottom:12px;font-size:15px;background:#fff}
+  .sumline{display:flex;justify-content:space-between;padding:10px 16px;font-size:14px;color:var(--grey)}
+  .sumtotal{display:flex;justify-content:space-between;padding:14px 16px;font-size:18px;font-weight:700;border-top:1px solid var(--line);margin-top:6px}
+  .suggest{padding:4px 16px 16px}
+  .suggest h4{font-family:Georgia,serif;font-size:13px;letter-spacing:2px;margin-bottom:10px}
+  .srow2{display:flex;gap:12px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:4px;padding:10px}
+  .srow2 img{width:72px;height:72px;object-fit:cover;border-radius:3px}
+  .srow2 .nm{flex:1;font-size:13px;font-weight:600}
+  .splus{width:36px;height:36px;border:1px solid var(--ink);background:#fff;border-radius:50%;font-size:18px;cursor:pointer}
+  .sizebtn{flex:1;padding:13px;border:1px solid var(--ink);background:#fff;font-size:13px;letter-spacing:2px;cursor:pointer;border-radius:2px}
+  .sizebtn.active{background:var(--ink);color:#fff}
+  .vplus{display:block;width:100%;border:none;border-top:1px solid var(--line);background:var(--bg);padding:8px;font-size:17px;cursor:pointer;color:var(--ink)}
+  .vplus:disabled{color:var(--grey)}
 </style>
 </head>
 <body>
@@ -96,30 +124,55 @@
     <span class="badge" id="pvBadge"></span>
     <h2 id="pvTitle"></h2>
     <div><span class="price" id="pvPrice"></span><span class="old" id="pvOld"></span></div>
+    <div class="colorrow" id="colorRow"></div>
+    <div id="sizeRow"></div>
     <button class="btn" id="pvBtn"></button>
   </div>
+  <div class="variants" id="complete"></div>
+  <div class="variants" id="variants"></div>
 </div>
 
 <div id="cartView">
   <div class="back" onclick="showCatalog()">← НАЗАД К КАТАЛОГУ</div>
   <div id="cartItems"></div>
+  <div class="suggest" id="suggest"></div>
   <div id="cartTotal"></div>
-  <div style="padding:0 16px"><button class="btn wine" id="checkoutBtn" onclick="openOrder()">ОФОРМИТЬ ЗАКАЗ</button></div>
+  <div style="padding:0 16px"><button class="btn wine" id="checkoutBtn" onclick="showCheckout()">ОФОРМИТЬ ЗАКАЗ</button></div>
 </div>
 
-<div id="overlay" onclick="closeOrder()"></div>
-<div id="orderForm">
-  <h3>Оформление заказа</h3>
-  <input id="fName" placeholder="Ваше имя">
-  <input id="fPhone" placeholder="Телефон">
-  <button class="btn" onclick="sendOrder()">ОТПРАВИТЬ ЗАКАЗ</button>
+<div id="checkoutView">
+  <div class="back" onclick="showCart()">← КОРЗИНА</div>
+  <div class="pinfo">
+    <h2>Данные доставки</h2>
+    <input class="field" id="cFio" placeholder="Фамилия Имя Отчество">
+    <input class="field" id="cPhone" placeholder="Телефон">
+    <input class="field" id="cCity" placeholder="Город">
+    <input class="field" id="cSdek" placeholder="Адрес пункта выдачи СДЭК">
+    <button class="btn" onclick="goSummary()">ДАЛЕЕ →</button>
+  </div>
 </div>
+
+<div id="summaryView">
+  <div class="back" onclick="goCheckout()">← НАЗАД</div>
+  <div id="sumItems"></div>
+  <div class="sumline"><span>Товары</span><span id="sumSub"></span></div>
+  <div class="sumline"><span>Доставка СДЭК</span><span id="sumDel"></span></div>
+  <div class="sumtotal"><span>ИТОГО К ОПЛАТЕ</span><span id="sumTotal"></span></div>
+  <div style="padding:0 16px">
+    <button class="btn wine" id="payBtn2" onclick="tg.openLink(PAY_LINK)">💳 К ОПЛАТЕ</button>
+    <button class="btn" onclick="confirmOrder()">Я ОПЛАТИЛ(А) — ОТПРАВИТЬ ЗАКАЗ</button>
+  </div>
+  <p class="paynote" style="padding:10px 16px 0">После оплаты нажмите «Я оплатил(а)» и пришлите скриншот чека в чат с ботом.</p>
+</div>
+
+
 
 <script>
 // округление цен вверх до сотен: 1566 -> 1600
 PRODUCTS.forEach(p => { p.price_rub = Math.ceil(p.price_rub/100)*100; if (p.old_rub) p.old_rub = Math.ceil(p.old_rub/100)*100; });
 const tg = window.Telegram.WebApp; tg.ready(); tg.expand();
 const fmt = n => n.toLocaleString('ru-RU') + ' ₽';
+const PAY_LINK = 'https://qr.nspk.ru/AS1A004446Q653U18ML9ASO87OP4JV5Q?type=01&bank=100000000111&crc=E980';
 let cart = JSON.parse(localStorage.getItem('burker_cart') || '{}');
 let filter = 'all', query = '', cur = null;
 
@@ -130,6 +183,12 @@ function updateBadge(){
   c.style.display = cartQty() ? 'flex' : 'none'; c.textContent = cartQty();
 }
 const modelOf = p => p.title.split(' ')[0].toUpperCase();
+const COLORS = ['burgundy','gold','silver','black','blue','green','white','rose','brown','grey'];
+const colorTokens = t => COLORS.filter(c => t.toLowerCase().includes(c));
+const colorKeyOf = p => p.title.toLowerCase().split(/\s+/).slice(1).filter(w=>w!=='petite').join(' ');
+const COLOR_HEX={gold:'#c9a24b',silver:'#b9bcc2',burgundy:'#6b1220',black:'#1a1a1a',blue:'#3b5b8c',green:'#5a7d4f',white:'#e8e6e1',rose:'#c98a8a',brown:'#7a5c3e',grey:'#9a9a9a'};
+const mainColor=t=>COLORS.find(c=>t.toLowerCase().includes(c))||null;
+function quickAdd(id,btn){ cart[id]=(cart[id]||0)+1; saveCart(); if(btn){btn.textContent='\u2713'; btn.disabled=true;} }
 // в наличии — выше, нет в наличии — внизу списка
 const sortAvail = list => [...list].sort((a,b)=>(b.available?1:0)-(a.available?1:0));
 const filtered = () => PRODUCTS.filter(p =>
@@ -181,7 +240,7 @@ document.getElementById('tabs').onclick = e=>{
   render();
 };
 function show(view){
-  ['catalogView','productView','cartView'].forEach(id=>document.getElementById(id).style.display='none');
+  ['catalogView','productView','cartView','checkoutView','summaryView'].forEach(id=>document.getElementById(id).style.display='none');
   document.getElementById(view).style.display='block'; window.scrollTo(0,0);
 }
 const showCatalog = ()=>show('catalogView');
@@ -207,50 +266,143 @@ function openProduct(id){
   else if(cart[cur.id]){ btn.textContent='В КОРЗИНЕ ✓'; btn.disabled=false; btn.onclick=showCart; }
   else { btn.textContent='ДОБАВИТЬ В КОРЗИНУ'; btn.disabled=false;
     btn.onclick=()=>{ cart[cur.id]=1; saveCart(); openProduct(cur.id); }; }
+  // ЦВЕТ: точки-переключатели как на официальном сайте
+  const crow=document.getElementById('colorRow'); crow.innerHTML='';
+  {
+    const m=modelOf(cur);
+    const isP=cur.title.toLowerCase().includes('petite');
+    const ck=colorKeyOf(cur);
+    const sibs=PRODUCTS.filter(p=>p.id!==cur.id && modelOf(p)===m
+        && p.title.toLowerCase().includes('petite')===isP && colorKeyOf(p)!==ck);
+    if(sibs.length){
+      const items=[cur].concat(sibs);
+      crow.innerHTML='<span class="cl">ЦВЕТ:</span>'+items.map((p,i)=>{
+        const c=mainColor(p.title);
+        return `<span class="sw${i===0?' on':''}" style="background:${c?COLOR_HEX[c]:'#ddd'}" onclick="openProduct(${p.id})"></span>`;
+      }).join('');
+    }
+  }
+  // РАЗМЕР: NORMAL / PETITE (если у этой расцветки есть версия другого размера)
+  const srow = document.getElementById('sizeRow'); srow.innerHTML='';
+  if(cur.type==='Watch'){
+    const ck = colorKeyOf(cur);
+    const sib = PRODUCTS.find(p => p.type==='Watch' && p.id!==cur.id
+                                 && modelOf(p)===modelOf(cur) && colorKeyOf(p)===ck);
+    if(sib){
+      const isP = cur.title.toLowerCase().includes('petite');
+      srow.innerHTML = `<div class="sizelabel">РАЗМЕР</div><div style="display:flex;gap:10px">`
+        + `<button class="sizebtn${isP?'':' active'}" onclick="openProduct(${isP?sib.id:cur.id})">NORMAL</button>`
+        + `<button class="sizebtn${isP?' active':''}" onclick="openProduct(${isP?cur.id:sib.id})">PETITE</button></div>`;
+    }
+  }
+  // ЗАВЕРШИТЕ ОБРАЗ: браслеты в тон (бордовый циферблат -> бордовый браслет)
+  const cbox = document.getElementById('complete'); cbox.innerHTML='';
+  if(cur.type==='Watch'){
+    const toks = colorTokens(cur.title);
+    const sugg = PRODUCTS.filter(p=>p.type==='Jewelry' && p.id!==cur.id)
+      .map(p=>({p, s: colorTokens(p.title).filter(c=>toks.includes(c)).length}))
+      .sort((a,b)=>(b.p.available?1:0)-(a.p.available?1:0) || b.s-a.s)
+      .slice(0,4).map(x=>x.p);
+    if(sugg.length){
+      cbox.innerHTML = `<h4>\u0417\u0410\u0412\u0415\u0420\u0428\u0418\u0422\u0415 \u041e\u0411\u0420\u0410\u0417</h4><div class="vrow">`
+        + sugg.map(p=>`<div class="vcard${p.available?'':' na'}">
+             <img src="${p.images[0]}" loading="lazy" onclick="openProduct(${p.id})">
+             <p>${p.title}<span class="price">${fmt(p.price_rub)}</span></p>
+             ${p.available?`<button class="vplus" onclick="quickAdd(${p.id},this)">+</button>`:''}
+           </div>`).join('') + `</div>`;
+    }
+  }
+  // "другие варианты" той же модели: в наличии — сначала
+  const m = modelOf(cur);
+  const vs = sortAvail(PRODUCTS.filter(p => modelOf(p)===m && p.id!==cur.id));
+  const vbox = document.getElementById('variants');
+  if(vs.length){
+    vbox.innerHTML = `<h4>ДРУГИЕ ВАРИАНТЫ: ${m}</h4><div class="vrow">` + vs.map(p=>
+      `<div class="vcard${p.available?'':' na'}" onclick="openProduct(${p.id})">
+         <img src="${p.images[0]}" loading="lazy">
+         <p>${p.title.replace(new RegExp('^'+m+'\\s*'),'')||p.title}<span class="price">${fmt(p.price_rub)}</span></p>
+       </div>`).join('') + `</div>`;
+  } else { vbox.innerHTML=''; }
   show('productView');
 }
 
+function cartList(){
+  return Object.entries(cart).map(([id,qty])=>({p:PRODUCTS.find(x=>x.id==id), qty})).filter(x=>x.p);
+}
+function cartSubtotal(){ return cartList().reduce((s,x)=>s+x.p.price_rub*x.qty,0); }
+function deliveryCalc(){
+  let w=0, j=0;
+  cartList().forEach(({p,qty})=>{ if(p.type==='Watch') w+=qty; else j+=qty; });
+  return 1300 + 800*Math.max(0, w-1) + 400*j;
+}
+function cartSuggest(){
+  if(!cartQty()) return null;
+  const inCart=Object.keys(cart).map(Number);
+  const toks=[];
+  cartList().forEach(({p})=>colorTokens(p.title).forEach(c=>{if(!toks.includes(c))toks.push(c);}));
+  const cands=PRODUCTS.filter(p=>p.type==='Jewelry'&&p.available&&!inCart.includes(p.id))
+    .map(p=>({p, s:colorTokens(p.title).filter(c=>toks.includes(c)).length}))
+    .sort((a,b)=>b.s-a.s || a.p.price_rub-b.p.price_rub);
+  return cands.length?cands[0].p:null;
+}
 function showCart(){
   const box=document.getElementById('cartItems'); box.innerHTML='';
-  let total=0;
-  Object.entries(cart).forEach(([id,qty])=>{
-    const p=PRODUCTS.find(x=>x.id==id); if(!p) return;
-    total += p.price_rub*qty;
+  cartList().forEach(({p,qty})=>{
     const d=document.createElement('div'); d.className='citem';
     d.innerHTML=`<img src="${p.images[0]}"><div class="nm">${p.title}
       <div class="price" style="font-size:14px">${fmt(p.price_rub*qty)}</div>
-      <div class="qty"><button onclick="chQty(${id},-1)">−</button><span>${qty}</span>
-      <button onclick="chQty(${id},1)">+</button></div></div>`;
+      <div class="qty"><button onclick="chQty(${p.id},-1)">−</button><span>${qty}</span>
+      <button onclick="chQty(${p.id},1)">+</button></div></div>`;
     box.appendChild(d);
   });
-  document.getElementById('cartTotal').innerHTML = total
-    ? `<span>ИТОГО</span><span>${fmt(total)}</span>` : '';
-  document.getElementById('checkoutBtn').style.display = total ? 'block' : 'none';
+  const sg=document.getElementById('suggest'); sg.innerHTML='';
+  const sug=cartSuggest();
+  if(sug){
+    sg.innerHTML=`<h4>ДОБАВЬТЕ К ЗАКАЗУ</h4><div class="srow2">
+      <img src="${sug.images[0]}" onclick="openProduct(${sug.id})">
+      <div class="nm">${sug.title}<div class="price" style="font-size:13px">${fmt(sug.price_rub)}</div></div>
+      <button class="splus" onclick="quickAdd(${sug.id});showCart()">+</button></div>`;
+  }
+  const sub=cartSubtotal();
+  document.getElementById('cartTotal').innerHTML = sub
+    ? `<span>ТОВАРЫ</span><span>${fmt(sub)}</span>` : '';
+  document.getElementById('checkoutBtn').style.display = sub ? 'block' : 'none';
   show('cartView');
 }
 function chQty(id,d){ cart[id]=(cart[id]||0)+d; if(cart[id]<=0) delete cart[id]; saveCart(); showCart(); }
 
-function openOrder(){
+function gv(id){ return document.getElementById(id).value.trim(); }
+function showCheckout(){
   if(!cartQty()) return;
-  document.getElementById('overlay').style.display='block';
-  document.getElementById('orderForm').style.display='block';
+  show('checkoutView');
 }
-function closeOrder(){
-  document.getElementById('overlay').style.display='none';
-  document.getElementById('orderForm').style.display='none';
+function goCheckout(){ show('checkoutView'); }
+function goSummary(){
+  if(!gv('cFio')||!gv('cPhone')||!gv('cCity')||!gv('cSdek')){ tg.showAlert('Заполните все поля'); return; }
+  renderSummary();
+  show('summaryView');
 }
-function sendOrder(){
-  const name=document.getElementById('fName').value.trim();
-  const phone=document.getElementById('fPhone').value.trim();
-  if(!name||!phone){ tg.showAlert('Заполните имя и телефон'); return; }
-  const items=Object.entries(cart).map(([id,qty])=>{
-    const p=PRODUCTS.find(x=>x.id==id);
-    return `${p.title} ×${qty} — ${fmt(p.price_rub*qty)}`;
+function renderSummary(){
+  const box=document.getElementById('sumItems'); box.innerHTML='';
+  cartList().forEach(({p,qty})=>{
+    const d=document.createElement('div'); d.className='citem';
+    d.innerHTML=`<img src="${p.images[0]}"><div class="nm">${p.title} ×${qty}</div>
+      <div style="font-weight:700;font-size:14px;align-self:center">${fmt(p.price_rub*qty)}</div>`;
+    box.appendChild(d);
   });
-  const total=Object.entries(cart).reduce((s,[id,q])=>s+PRODUCTS.find(x=>x.id==id).price_rub*q,0);
-  tg.sendData(JSON.stringify({name,phone,items,total:`${total.toLocaleString('ru-RU')} ₽`}));
-  cart={}; saveCart(); closeOrder(); showCatalog();
-  tg.showAlert('Заказ отправлен! Мы свяжемся с вами.');
+  const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
+  document.getElementById('sumSub').textContent=fmt(sub);
+  document.getElementById('sumDel').textContent=fmt(del);
+  document.getElementById('sumTotal').textContent=fmt(total);
+  document.getElementById('payBtn2').textContent=`💳 К ОПЛАТЕ ${fmt(total)}`;
+}
+function confirmOrder(){
+  const sub=cartSubtotal(), del=deliveryCalc();
+  const items=cartList().map(({p,qty})=>`${p.title} ×${qty} — ${fmt(p.price_rub*qty)}`);
+  tg.sendData(JSON.stringify({fio:gv('cFio'),phone:gv('cPhone'),city:gv('cCity'),sdek:gv('cSdek'),
+    items, subtotal:fmt(sub), delivery:fmt(del), total:fmt(sub+del)}));
+  cart={}; saveCart(); showCatalog();
+  tg.showAlert('Заказ отправлен! Теперь пришлите скриншот оплаты в чат с ботом.');
 }
 render(); updateBadge();
 </script>
