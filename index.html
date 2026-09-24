@@ -494,17 +494,21 @@ function sendOrderOnce(){
     items, subtotal:fmt(sub), delivery:fmt(del), total:fmt(total),
     pay:payMode, rest:fmt(rest)};
   // 1. \u0412 Google \u0422\u0430\u0431\u043b\u0438\u0446\u0443 \u2014 \u0412\u0421\u0415\u0413\u0414\u0410
-  try { fetch(GS_URL, {method:'POST', body: JSON.stringify(payload)}); } catch(e) {}
-  // 2. \u0412 \u0431\u043e\u0442\u0430 \u2014 \u0442\u043e\u043b\u044c\u043a\u043e \u0432\u043d\u0443\u0442\u0440\u0438 Telegram
+  try {
+    fetch(GS_URL, {method:'POST', mode:'no-cors',
+      headers:{'Content-Type':'text/plain;charset=utf-8'},
+      body: JSON.stringify(payload)});
+  } catch(e) {}
+  // 2. \u0412 \u0431\u043e\u0442\u0430 \u2014 \u0435\u0441\u043b\u0438 \u0432\u043d\u0443\u0442\u0440\u0438 Telegram
   if (tg.initData) { tg.sendData(JSON.stringify(payload)); }
   cart={}; saveCart();
   return true;
 }
 function payNow(half){
   payMode = half ? 'half' : 'full';
-  sendOrderOnce();
-  const total=cartSubtotal()+deliveryCalc();
+  const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
   const amt = half ? Math.ceil(total/2) : total;
+  sendOrderOnce();
   tg.showAlert('\u041a \u043e\u043f\u043b\u0430\u0442\u0435 ' + fmt(amt) + (half ? ('\n\u041e\u0441\u0442\u0430\u0442\u043e\u043a ' + fmt(total-amt) + ' \u2014 \u043f\u0440\u0438 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0438') : ''));
   tg.openLink(PAY_LINK);
 }
