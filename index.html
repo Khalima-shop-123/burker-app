@@ -21,8 +21,8 @@
     width:20px;height:20px;font-size:11px;display:none;align-items:center;justify-content:center}
   .search{padding:12px 16px 0}
   .showcase{display:block;padding:0 16px 16px}
-  .bcard{position:relative;height:170px;border-radius:8px;overflow:hidden;cursor:pointer;margin-bottom:14px;
-    box-shadow:0 2px 10px rgba(0,0,0,.08)}
+  .bcard{position:relative;height:180px;border-radius:12px;overflow:hidden;cursor:pointer;margin-bottom:14px;
+    box-shadow:0 4px 15px rgba(0,0,0,.12)}
   .bcard img{width:100%;height:100%;object-fit:cover;display:block}
   .bover{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.55) 100%)}
   .bname{position:absolute;left:16px;bottom:12px;color:#fff;font-family:Georgia,serif;font-size:22px;
@@ -248,13 +248,17 @@ function cardHTML(p){
 
 function renderShowcase(){
   const sc=document.getElementById('showcase');
-  if(brand!=='all' || query || filter!=='all'){ sc.style.display='none'; return; }
+  if(brand!=='all' || query.trim()){ sc.style.display='none'; return; }
   sc.style.display='block';
   const brands=[...new Set(PRODUCTS.map(brandOf))].sort();
   sc.innerHTML=brands.map(b=>{
     const items=PRODUCTS.filter(p=>brandOf(p)===b);
-    const hero=items.find(p=>p.available&&p.images.length)||items[0]||{};
-    const src=(hero.images&&hero.images.length)?hero.images[0]:'';
+    let src='';
+    if(b==='BURKER'){ src='banner-burker.jpg'; }
+    else {
+      const hero=items.find(p=>p.available&&p.images.length)||items[0]||{};
+      src=(hero.images&&hero.images.length)?hero.images[0]:'';
+    }
     let maxd=0;
     items.forEach(p=>{ if(p.old_rub){ const d=Math.round((1-p.price_rub/p.old_rub)*100); if(d>maxd)maxd=d; } });
     const avail=items.filter(p=>p.available).length;
@@ -451,7 +455,7 @@ function showCheckout(){
 }
 function goCheckout(){ show('checkoutView'); }
 function goSummary(){
-  if(!gv('cFio')||!gv('cPhone')||!gv('cCity')||!gv('cSdek')){ tg.showAlert('Заполните все поля'); return; }
+  if(!gv('cFio')||!gv('cPhone')||!gv('cCity')||!gv('cSdek')){ tg.showAlert('\u2705 Ваш заказ принят!'); return; }
   renderSummary();
   show('summaryView');
 }
@@ -488,7 +492,7 @@ function confirmOrder(){
   tg.sendData(JSON.stringify({fio:gv('cFio'),phone:gv('cPhone'),city:gv('cCity'),sdek:gv('cSdek'),
     items, subtotal:fmt(sub), delivery:fmt(del), total:fmt(total), half:fmt(half), rest:fmt(total-half)}));
   cart={}; saveCart(); showCatalog();
-  tg.showAlert('Заказ отправлен! Теперь пришлите скриншот оплаты в чат с ботом.');
+  tg.showAlert('\u2705 Ваш заказ принят! Мы начинаем выкуп. Как только заказ будет доставлен на наш склад в Европе, мы отправим его в Россию и пришлём трек-номер СДЭК в этот чат. Доставка: 20\u201325 дней с момента отправки со склада в Европе. Теперь пришлите скриншот оплаты в чат с ботом.');
 }
 renderBrandTabs(); render(); updateBadge();
 </script>
