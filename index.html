@@ -467,7 +467,7 @@ function showCheckout(){
 }
 function goCheckout(){ show('checkoutView'); }
 function goSummary(){
-  if(!gv('cFio')||!gv('cPhone')||!gv('cCity')||!gv('cSdek')){ tg.showAlert('\u2705 Ваш заказ принят!'); return; }
+  if(!gv('cFio')||!gv('cPhone')||!gv('cCity')||!gv('cSdek')){ tg.showAlert('Заполните все поля'); return; }
   renderSummary();
   show('summaryView');
 }
@@ -509,7 +509,7 @@ function payNow(half){
   const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
   const amt = half ? Math.ceil(total/2) : total;
   sendOrderOnce();
-  tg.showAlert('\u041a \u043e\u043f\u043b\u0430\u0442\u0435 ' + fmt(amt) + (half ? ('\n\u041e\u0441\u0442\u0430\u0442\u043e\u043a ' + fmt(total-amt) + ' \u2014 \u043f\u0440\u0438 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0438') : ''));
+  tg.showAlert('Ожидаем скриншот об оплате в чате бота.');
   tg.openLink(PAY_LINK);
 }
 function confirmOrder(){
