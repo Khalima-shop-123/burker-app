@@ -485,7 +485,7 @@ function payNow(half){
   tg.openLink(PAY_LINK);
 }
 function confirmOrder(){
-  if(!tg.initData){ tg.showAlert('✅ Ваш заказ принят!\n\nМы начали сборку заказа.\nТрек-номер для отслеживания придёт в этот чат, как только посылка будет отправлена.\nОжидайте в течение 20–25 дней.'); cart={}; saveCart(); showCatalog(); return; }
+  if(!tg.initData){ tg.showAlert('✅ Ваш заказ принят!'); cart={}; saveCart(); showCatalog(); return; }
   const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
   const half = Math.ceil(total/2);
   const items=cartList().map(({p,qty})=>`${p.title} ×${qty} — ${fmt(p.price_rub*qty)}`);
