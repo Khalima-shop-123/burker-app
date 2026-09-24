@@ -97,7 +97,9 @@
   .sw.on{outline:2px solid var(--ink);outline-offset:2px}
   .field{width:100%;padding:14px;border:1px solid var(--line);border-radius:4px;margin-bottom:12px;font-size:15px;background:#fff}
   .sumline{display:flex;justify-content:space-between;padding:10px 16px;font-size:14px;color:var(--grey)}
-  .payrow{display:flex;gap:10px;padding:6px 16px 0}
+  .warnbox{margin:12px 16px 0;background:#c0392b;color:#fff;font-weight:700;font-size:13px;
+    letter-spacing:.5px;padding:13px 14px;border-radius:6px;text-align:center;line-height:1.55}
+  .payrow{display:flex;gap:10px;padding:10px 16px 0}
   .payrow .btn{flex:1;font-size:12px;letter-spacing:1px;padding:15px 8px}
   .payrow small{display:block;font-weight:400;font-size:10px;letter-spacing:0;margin-top:4px;opacity:.85}
   .sumtotal{display:flex;justify-content:space-between;padding:14px 16px;font-size:18px;font-weight:700;border-top:1px solid var(--line);margin-top:6px}
@@ -174,12 +176,16 @@
   <div class="sumline"><span>Товары</span><span id="sumSub"></span></div>
   <div class="sumline"><span>Доставка СДЭК</span><span id="sumDel"></span></div>
   <div class="sumtotal"><span>ИТОГО К ОПЛАТЕ</span><span id="sumTotal"></span></div>
+  <div class="warnbox">\U0001f4f8 \u041f\u041e\u0421\u041b\u0415 \u041e\u041f\u041b\u0410\u0422\u042b<br>\u041e\u0411\u042f\u0417\u0410\u0422\u0415\u041b\u042c\u041d\u041e \u041e\u0422\u041f\u0420\u0410\u0412Ь\u0422\u0415 \u0421\u041a\u0420\u0418\u041d\u0428\u041e\u0422 \u0412 \u0427\u0410\u0422 \u0411\u041e\u0422\u0410</div>
   <div class="payrow">
     <button class="btn wine" onclick="payNow(false)">ОПЛАТИТЬ ВСЮ СУММУ<br><small id="fullBtn"></small></button>
     <button class="btn wine" onclick="payNow(true)">ОПЛАТИТЬ 50%<br><small id="halfBtn"></small></button>
   </div>
   <div style="padding:10px 16px 0">
-    <button class="btn" onclick="confirmOrder()">\U0001f4f8 ОТПРАВИТЬ СКРИНШОТ ОПЛАТЫ В ЧАТ БОТА</button>
+    <button class="btn" onclick="confirmOrder()">\u2705 \u042f \u041e\u041f\u041b\u0410\u0422\u0418\u041b(\u0410) \u0417\u0410\u041a\u0410\u0417</button>
+  </div>
+  <div style="padding:10px 16px 0">
+    <button class="btn" onclick="confirmOrder()">📸 ОТПРАВИТЬ СКРИНШОТ ОПЛАТЫ В ЧАТ БОТА</button>
   </div>
   <p class="paynote" style="padding:10px 16px 0">После оплаты нажмите «Я оплатил(а)» и пришлите скриншот чека в чат с ботом.</p>
 </div>
@@ -197,7 +203,7 @@ let cart = JSON.parse(localStorage.getItem('burker_cart') || '{}');
 if (typeof MATHEY !== 'undefined') PRODUCTS.push(...MATHEY);
 // чистим позиции, которых больше нет в каталоге (после обновления выгрузки)
 Object.keys(cart).forEach(id=>{ if(!PRODUCTS.find(x=>x.id==id)) delete cart[id]; });
-let filter = 'all', query = '', cur = null, brand = 'all';
+let filter = 'all', query = '', cur = null, brand = 'all', payMode = 'full';
 
 function saveCart(){ localStorage.setItem('burker_cart', JSON.stringify(cart)); updateBadge(); }
 function cartQty(){ return Object.values(cart).reduce((a,b)=>a+b, 0); }
@@ -476,22 +482,39 @@ function renderSummary(){
   document.getElementById('fullBtn').textContent = 'Полная сумма ' + fmt(total);
   document.getElementById('halfBtn').textContent = fmt(Math.ceil(total/2)) + ' сейчас · остальное при получении на ' + restPoint;
 }
+let orderSent = false;
+function sendOrderOnce(){
+  if(orderSent) return true;
+  if(!tg.initData) return false;
+  orderSent = true;
+  const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
+  const items=cartList().map(({p,qty})=>`${p.title} \u00d7${qty} \u2014 ${fmt(p.price_rub*qty)}`);
+  const rest = payMode==='half' ? Math.ceil(total/2) : 0;
+  tg.sendData(JSON.stringify({fio:gv('cFio'),phone:gv('cPhone'),city:gv('cCity'),sdek:gv('cSdek'),
+    items, subtotal:fmt(sub), delivery:fmt(del), total:fmt(total),
+    pay:payMode, rest:fmt(rest)}));
+  cart={}; saveCart();
+  return true;
+}
 function payNow(half){
+  payMode = half ? 'half' : 'full';
+  if(!sendOrderOnce()){
+    tg.showAlert('\u0427\u0442\u043e\u0431\u044b \u043e\u043f\u043b\u0430\u0442\u0438\u0442\u044c, \u043e\u0442\u043a\u0440\u043e\u0439\u0442\u0435 \u043c\u0430\u0433\u0430\u0437\u0438\u043d \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u00ab\U0001f6cd \u041e\u0422\u041a\u0420\u042b\u0422\u042c \u041a\u0410\u0422\u0410\u041b\u041e\u0413\u00bb \u0432 \u0431\u043e\u0442\u0435.');
+    return;
+  }
   const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
   const hasMT = cartList().some(x=>brandOf(x.p)==='MATHEY-TISSOT');
-  const restPoint = hasMT ? 'складе в Америке' : 'складе в Европе';
+  const restPoint = hasMT ? '\u0441\u043a\u043b\u0430\u0434\u0435 \u0432 \u0410\u043c\u0435\u0440\u0438\u043a\u0435' : '\u0441\u043a\u043b\u0430\u0434\u0435 \u0432 \u0415\u0432\u0440\u043e\u043f\u0435';
   const amt = half ? Math.ceil(total/2) : total;
-  tg.showAlert('К оплате ' + fmt(amt) + (half ? ('\nОставшиеся ' + fmt(total-amt) + ' — при получении на ' + restPoint) : ''));
+  tg.showAlert('\u041a \u043e\u043f\u043b\u0430\u0442\u0435 ' + fmt(amt) + (half ? ('\n\u041e\u0441\u0442\u0430\u0432\u0448\u0438\u0435\u0441\u044f ' + fmt(total-amt) + ' \u2014 \u043f\u0440\u0438 \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u0438\u0438 \u043d\u0430 ' + restPoint) : ''));
   tg.openLink(PAY_LINK);
 }
 function confirmOrder(){
-  if(!tg.initData){ tg.showAlert('Чтобы отправить заказ, откройте магазин кнопкой \u00ab\U0001f6cd ОТКРЫТЬ КАТАЛОГ\u00bb в боте.'); return; }
-  const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
-  const items=cartList().map(({p,qty})=>`${p.title} \u00d7${qty} \u2014 ${fmt(p.price_rub*qty)}`);
-  tg.sendData(JSON.stringify({fio:gv('cFio'),phone:gv('cPhone'),city:gv('cCity'),sdek:gv('cSdek'),
-    items, subtotal:fmt(sub), delivery:fmt(del), total:fmt(total)}));
-  cart={}; saveCart();
-  tg.showAlert('\U0001f4f8 Нажмите кнопку \u00ab\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u0441\u043a\u0440\u0438\u043d\u0448\u043e\u0442 \u043e\u043f\u043b\u0430\u0442\u044b\u00bb \u0432 \u0447\u0430\u0442\u0435 \u0441 \u0431\u043e\u0442\u043e\u043c.');
+  if(!sendOrderOnce()){
+    tg.showAlert('\u0427\u0442\u043e\u0431\u044b \u043e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u0437\u0430\u043a\u0430\u0437, \u043e\u0442\u043a\u0440\u043e\u0439\u0442\u0435 \u043c\u0430\u0433\u0430\u0437\u0438\u043d \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u00ab\U0001f6cd \u041e\u0422\u041a\u0420\u042b\u0422\u042c \u041a\u0410\u0422\u0410\u041b\u041e\u0413\u00bb \u0432 \u0431\u043e\u0442\u0435.');
+    return;
+  }
+  tg.showAlert('\U0001f4f8 \u0422\u0435\u043f\u0435\u0440\u044c \u043d\u0430\u0436\u043c\u0438\u0442\u0435 \u043a\u043d\u043e\u043f\u043a\u0443 \u00ab\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u0441\u043a\u0440\u0438\u043d\u0448\u043e\u0442 \u043e\u043f\u043b\u0430\u0442\u044b\u00bb \u0432 \u0447\u0430\u0442\u0435 \u0441 \u0431\u043e\u0442\u043e\u043c.');
   setTimeout(()=>tg.close(), 800);
 }
 renderBrandTabs(); render(); updateBadge();
