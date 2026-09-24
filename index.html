@@ -172,7 +172,6 @@
 
 <div id="summaryView">
   <div class="back" onclick="goCheckout()">← НАЗАД</div>
-  <div id="modeTag" style="padding:4px 16px;font-size:11px;color:#8a8a8a"></div>
   <div id="sumItems"></div>
   <div class="sumline"><span>Товары</span><span id="sumSub"></span></div>
   <div class="sumline"><span>Доставка СДЭК</span><span id="sumDel"></span></div>
@@ -417,8 +416,13 @@ function deliveryCalc(){
     if(brandOf(p)==='MATHEY-TISSOT') mt+=qty;
     else if(p.type==='Watch') w+=qty; else j+=qty;
   });
-  const usual = 1300 + 800*Math.max(0, w-1) + 400*j;   // BURKER и др.
-  return usual + mt*MT_DELIVERY;                       // + СДЭК Форвард за MT из США
+  const mtCost = mt*MT_DELIVERY;
+  if(w===0 && mt===0){
+    // только украшения: первые 6 входят в базовую доставку
+    return 1300 + 400*Math.max(0, j-6);
+  }
+  // есть часы: каждая следующая пара +800, каждое украшение +400
+  return 1300 + 800*Math.max(0, w-1) + 400*j + mtCost;
 }
 function cartSuggest(){
   if(!cartQty()) return null;
@@ -469,15 +473,7 @@ function goSummary(){
 }
 function renderSummary(){
   const box=document.getElementById('sumItems'); box.innerHTML='';
-  document.getElementById('modeTag').textContent = tg.initData
-    ? 'режим: Telegram \u2713 (заказ дойд\u0451т)'
-    : '\u26a0\ufe0f \u041e\u0442\u043a\u0440\u044b\u0442\u043e \u0432\u043d\u0435 Telegram \u2014 \u0437\u0430\u043a\u0430\u0437 \u041d\u0415 \u0434\u043e\u0439\u0434\u0451\u0442, \u043e\u0442\u043a\u0440\u043e\u0439\u0442\u0435 \u043a\u043d\u043e\u043f\u043a\u043e\u0439 \u00ab\u{1f6cd} \u041e\u0422\u041a\u0420\u042b\u0422\u042c \u041a\u0410\u0422\u0410\u041b\u041e\u0413\u00bb \u0432 \u0431\u043e\u0442\u0435';
-  cartList().forEach(({p,qty})=>{
-    const d=document.createElement('div'); d.className='citem';
-    d.innerHTML=`<img src="${p.images[0]}"><div class="nm">${p.title} ×${qty}</div>
-      <div style="font-weight:700;font-size:14px;align-self:center">${fmt(p.price_rub*qty)}</div>`;
-    box.appendChild(d);
-  });
+
   const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
   const hasMT = cartList().some(x=>brandOf(x.p)==='MATHEY-TISSOT');
   const restPoint = hasMT ? 'складе в Америке' : 'складе в Европе';
