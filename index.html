@@ -179,7 +179,7 @@
     <button class="btn wine" onclick="payNow(true)">ОПЛАТИТЬ 50%<br><small id="halfBtn"></small></button>
   </div>
   <div style="padding:10px 16px 0">
-    <button class="btn" onclick="confirmOrder()">Я ОПЛАТИЛ(А) — ОТПРАВИТЬ ЗАКАЗ</button>
+    <button class="btn" onclick="confirmOrder()">\U0001f4f8 ОТПРАВИТЬ СКРИНШОТ ОПЛАТЫ В ЧАТ БОТА</button>
   </div>
   <p class="paynote" style="padding:10px 16px 0">После оплаты нажмите «Я оплатил(а)» и пришлите скриншот чека в чат с ботом.</p>
 </div>
@@ -485,14 +485,14 @@ function payNow(half){
   tg.openLink(PAY_LINK);
 }
 function confirmOrder(){
-  if(!tg.initData){ tg.showAlert('✅ Ваш заказ принят!'); cart={}; saveCart(); showCatalog(); return; }
+  if(!tg.initData){ tg.showAlert('Чтобы отправить заказ, откройте магазин кнопкой \u00ab\U0001f6cd ОТКРЫТЬ КАТАЛОГ\u00bb в боте.'); return; }
   const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
-  const half = Math.ceil(total/2);
-  const items=cartList().map(({p,qty})=>`${p.title} ×${qty} — ${fmt(p.price_rub*qty)}`);
+  const items=cartList().map(({p,qty})=>`${p.title} \u00d7${qty} \u2014 ${fmt(p.price_rub*qty)}`);
   tg.sendData(JSON.stringify({fio:gv('cFio'),phone:gv('cPhone'),city:gv('cCity'),sdek:gv('cSdek'),
-    items, subtotal:fmt(sub), delivery:fmt(del), total:fmt(total), half:fmt(half), rest:fmt(total-half)}));
-  cart={}; saveCart(); showCatalog();
-  tg.showAlert('\u2705 Ваш заказ принят! Мы начинаем выкуп. Как только заказ будет доставлен на наш склад в Европе, мы отправим его в Россию и пришлём трек-номер СДЭК в этот чат. Доставка: 20\u201325 дней с момента отправки со склада в Европе. Теперь пришлите скриншот оплаты в чат с ботом.');
+    items, subtotal:fmt(sub), delivery:fmt(del), total:fmt(total)}));
+  cart={}; saveCart();
+  tg.showAlert('\U0001f4f8 Нажмите кнопку \u00ab\u041e\u0442\u043f\u0440\u0430\u0432\u0438\u0442\u044c \u0441\u043a\u0440\u0438\u043d\u0448\u043e\u0442 \u043e\u043f\u043b\u0430\u0442\u044b\u00bb \u0432 \u0447\u0430\u0442\u0435 \u0441 \u0431\u043e\u0442\u043e\u043c.');
+  setTimeout(()=>tg.close(), 800);
 }
 renderBrandTabs(); render(); updateBadge();
 </script>
