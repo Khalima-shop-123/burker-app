@@ -506,7 +506,7 @@ function payNow(half){
   const sub=cartSubtotal(), del=deliveryCalc(), total=sub+del;
   const amt = half ? Math.ceil(total/2) : total;
   sendOrderOnce();
-  tg.showAlert('Ожидаем скриншот об оплате в чате бота.');
+  tg.showAlert('Ожидаем скриншот об оплате в поддержку.');
   tg.openLink(PAY_LINK);
 }
 function sendReceipt(){
